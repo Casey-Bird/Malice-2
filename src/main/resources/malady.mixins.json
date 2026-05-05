@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.maven.malady.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "malady.refmap.json",
+  "mixins": [
+    "parcool.LightStaminaHUDMixin",
+
+    "bonded.GameplayHookMixin",
+    "bonded.BondBonusRegistryMixin",
+    "bonded.GearManagerMixin",
+    "bonded.BondedTooltipMixin"
+  ],
+  "client": [
+
+  ],
+  "server": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

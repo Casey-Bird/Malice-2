@@ -1,0 +1,2 @@
+# Tell NeoForge to use our custom window
+earlyWindowProvider = "BasicBackgroundWindow"

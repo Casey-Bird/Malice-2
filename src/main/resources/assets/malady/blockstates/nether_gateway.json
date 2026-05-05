@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "malady:block/nether_gateway"
+    }
+  }
+}

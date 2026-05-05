@@ -1,0 +1,17 @@
+# List of plants that are able to drop plant fibers.
+plant_fiber_plants = ["minecraft:short_grass"]
+# A list of mobs .
+blacklisted_bonded_mobs = []
+# A list of mobs that grant the player 2x bonded experience for dealing damage.
+double_multiplier_bonded_mobs = []
+#A list of configurations, each containing [string, number, string]
+#Example: [["minecraft:iron_sword", 50, "minecraft:diamond_sword"], ["minecraft:gold_sword", 1000, "minecraft:netherite_sword"]]
+mutation_config = []
+# A list of mobs that the undead soul crystal can drop from.
+undead_soul_crystal = ["minecraft:zombie"]
+#Drop chance percentage for undead soul crystals (0-1000): higher = easier
+# Default: 100
+# Range: 0 ~ 100
+undead_soul_crystal_dropchance = 2
+# A list of mobs that rubies can drop from after death.
+currency_mobs = ["minecraft:zombie", "minecraft:enderman", "minecraft:villager", "minecraft:spider"]

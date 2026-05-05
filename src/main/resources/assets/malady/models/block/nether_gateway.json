@@ -1,0 +1,6 @@
+{
+  "parent": "block/dirt",
+  "textures": {
+    "all": "malady:block/nether_gateway"
+  }
+}
