@@ -1,0 +1,104 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.helheim.chronicles.ch7.title",
+								"fallback": "Chapter 7: The Truth of Worlds"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.lore.chapter_7"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch7.p1",
+									"fallback": "We were visiting the imprisoned child, as we did every evening to provide comfort and warmth, when we lowered our guard."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch7.p2",
+									"fallback": "In seconds, Odin fell. Only the hero of Svartalfheim remains."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch7.p3",
+									"fallback": "Before disappearing, I remember a discussion with Odin, he had told me that in Asgard too, the incarnations passed messages to each other."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch7.p4",
+									"fallback": "And that Helheim has never won a single war - our offensive power is too weak, and we had to rely on our Necromancer abilities."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch7.p5",
+									"fallback": "But it's unthinkable to do that knowing the truth about the beings of this world. As for Asgard, they have won several times."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch7.p6",
+									"fallback": "Victory brings the power of Ragnarök - the ability to rewrite the rules of the world for the next game."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch7.p7",
+									"fallback": "If I win, I can save them and all the immortals."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch7.p8",
+									"fallback": "I must win, or else do it in my place!"
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.helheim.location",
+									"fallback": "[Helheim]",
+									"color": "#6b1616",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:helheim/lore"
+}

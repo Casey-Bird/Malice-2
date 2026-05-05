@@ -1,0 +1,99 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:helheim/enchanted_book/ominous_vault"
+				}
+			]
+		},
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "I.O.U - Helheim",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:helheim/lore/chapter_9"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/reward/rare/trim",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:helheim/reward/shared/deepslate",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:helheim/reward/shared/wood",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:helheim/reward/shared/lantern",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heavy_core",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spawner",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:totem_of_undying",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/reward/rare/enchanted_item_50",
+					"weight": 1
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.75
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:helheim/chest"
+}

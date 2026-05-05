@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "yggdrasil:runic_labyrinth/reward/shulker/black/variant_1",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "yggdrasil:runic_labyrinth/reward/shulker/black/variant_2",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "yggdrasil:runic_labyrinth/reward/shulker/black/variant_3",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "random_sequence": "yggdrasil:runic_labyrinth/chest"
+}

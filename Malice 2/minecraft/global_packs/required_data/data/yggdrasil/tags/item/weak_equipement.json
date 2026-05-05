@@ -1,0 +1,23 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:leather_helmet",
+		"minecraft:leather_chestplate",
+		"minecraft:leather_leggings",
+		"minecraft:leather_boots",
+		"minecraft:chainmail_helmet",
+		"minecraft:chainmail_chestplate",
+		"minecraft:chainmail_leggings",
+		"minecraft:chainmail_boots",
+		"minecraft:stone_pickaxe",
+		"minecraft:stone_shovel",
+		"minecraft:stone_hoe",
+		"minecraft:stone_sword",
+		"minecraft:stone_axe",
+		"minecraft:stone_pickaxe",
+		"minecraft:stone_shovel",
+		"minecraft:stone_hoe",
+		"minecraft:stone_sword",
+		"minecraft:bow"
+	]
+}

@@ -1,0 +1,144 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_boots",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:amethyst",
+									"pattern": "minecraft:sentry"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_boots",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/boots",
+							"only_compatible": true
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:copper",
+									"pattern": "minecraft:shaper"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_boots",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:diamond",
+									"pattern": "minecraft:snout"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_boots",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/boots",
+							"only_compatible": true
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:netherite",
+									"pattern": "minecraft:coast"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_boots",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:redstone",
+									"pattern": "minecraft:snout"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_boots",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/boots",
+							"only_compatible": true
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:quartz",
+									"pattern": "minecraft:wild"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:equipment"
+}

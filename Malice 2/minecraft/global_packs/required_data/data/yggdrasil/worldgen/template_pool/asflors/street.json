@@ -1,0 +1,56 @@
+{
+    "fallback": "yggdrasil:asflors/terminator",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "yggdrasil:asflors/street",
+                "location": "yggdrasil:asflors/road/straight/extra_large"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "yggdrasil:asflors/street",
+                "location": "yggdrasil:asflors/road/straight/dirty"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "yggdrasil:asflors/street",
+                "location": "yggdrasil:asflors/road/crossroad/large"
+            }
+        },
+        {
+            "weight": 9,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "yggdrasil:asflors/street",
+                "location": "yggdrasil:asflors/road/crossroad/large_turn"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "yggdrasil:asflors/street",
+                "location": "yggdrasil:asflors/road/crossroad/turn"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        }
+    ]
+}

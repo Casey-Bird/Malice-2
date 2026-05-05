@@ -1,0 +1,95 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.runic_fracture.book.name",
+								"fallback": "Journal of the Transcendent"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_fracture.lore.journal_transcendent"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.runic_fracture.book.page1",
+									"fallback": "I congratulate you on finding this place. The force emanating from it is unmistakable - you must have noticed that this island was floating. This is actually due to the powers of the dark elves. I know them well, but I do not approve of their deviousness."
+								},
+								{
+									"translate": "item.yggdrasil.runic_fracture.book.page2",
+									"fallback": "Know that this place is dangerous. Only a 'powerful' person can enter, and I truly hope such a person exists. If not, I won't lie to you, it would be the worst of despairs."
+								},
+								{
+									"translate": "item.yggdrasil.runic_fracture.book.page3",
+									"fallback": "Let me be honest: my power has surpassed that of the gods, and I have acquired a form of immortality. Despite everything I've tried, I have found no way to disappear. Even when disintegrating every particle of my body, it reappears."
+								},
+								{
+									"translate": "item.yggdrasil.runic_fracture.book.page4",
+									"fallback": "My mind and intelligence seem to exist in a far more complex higher universe, while every particle of my body manifests itself at every moment."
+								},
+								{
+									"translate": "item.yggdrasil.runic_fracture.book.page5",
+									"fallback": "At this point, it can no longer even be called magic. It is something more complex, something that transcends the laws of our world."
+								},
+								{
+									"translate": "item.yggdrasil.runic_fracture.book.page6",
+									"fallback": "Well, I talk a lot about myself, but if you want to enter, you'll need to find a certain village. You'll spot it easily: it has a fountain with black and white ground. In this village, you'll find my story and a way to open this tomb."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_fracture",
+									"fallback": "[Runic Fracture]",
+									"color": "#ffffff",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asflors/lore"
+}

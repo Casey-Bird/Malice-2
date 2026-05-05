@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "yggdrasil:asflors/lore/timeless_one_journal"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "yggdrasil:asflors/treasure/rune_of_rupture"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "yggdrasil:asflors/treasure/runic_fracture_map"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "yggdrasil:asflors/chest"
+}

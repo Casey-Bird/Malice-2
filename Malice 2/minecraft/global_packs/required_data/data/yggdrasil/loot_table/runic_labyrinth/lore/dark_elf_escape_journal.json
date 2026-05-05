@@ -1,0 +1,70 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.dark_elf_escape_journal",
+								"fallback": "Dark Elf Journal: The Escape"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_labyrinth.lore.dark_elf_escape_journal"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.dark_elf_escape_journal.page1",
+									"fallback": "We thought ourselves invincible in our runic dimension. Such arrogance! We never imagined the gods themselves would cross worlds to reach us. Our proto-magic, which nearly matched their power, frightened them."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_escape_journal.page2",
+									"fallback": "I took refuge in the depths of the labyrinth. That's where I understood: the gods were drawn to magical flows like moths to flame. Our greatest strength had become our greatest weakness."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_labyrinth",
+									"fallback": "[Runic Labyrinth]",
+									"color": "#ffcbfc",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_labyrinth/lore"
+}

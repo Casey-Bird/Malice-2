@@ -1,0 +1,74 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.dark_elf_bow_testament",
+								"fallback": "Testament of the Runic Bow"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_labyrinth.lore.dark_elf_bow_testament"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.dark_elf_bow_testament.page1",
+									"fallback": "This bow contains most of my life force. A weapon of terrifying power, perhaps capable of defeating a god... but only one."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_bow_testament.page2",
+									"fallback": "It's tragically insufficient. I sensed them above, they were dozens. Fear consumes me, but I maintain hope: if you find other weapons of this caliber..."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_bow_testament.page3",
+									"fallback": "Perhaps you can combine them, create a divine weapon, a true god-slayer. I leave you this possibility, for I must flee. Use it wisely."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_labyrinth",
+									"fallback": "[Runic Labyrinth]",
+									"color": "#ffcbfc",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_labyrinth/lore"
+}

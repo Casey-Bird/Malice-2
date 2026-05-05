@@ -1,0 +1,70 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.dark_elf_weapon_note",
+								"fallback": "Note on the Hidden Weapon"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_labyrinth.lore.dark_elf_weapon_note"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.dark_elf_weapon_note.page1",
+									"fallback": "To whoever finds this weapon, don't rejoice too quickly. Its power is limited - at best, it could wound a demigod. Nothing more."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_weapon_note.page2",
+									"fallback": "It won't be of much use in your quest, but if you wish to give it purpose... Avenge my people. That's all I ask of the one who finds it."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_labyrinth",
+									"fallback": "[Runic Labyrinth]",
+									"color": "#ffcbfc",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_labyrinth/lore"
+}

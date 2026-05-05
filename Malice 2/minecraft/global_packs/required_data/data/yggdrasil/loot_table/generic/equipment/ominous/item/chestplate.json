@@ -1,0 +1,144 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_chestplate",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:amethyst",
+									"pattern": "minecraft:eye"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_chestplate",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:copper",
+									"pattern": "minecraft:rib"
+								}
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/chestplate",
+							"only_compatible": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_chestplate",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:diamond",
+									"pattern": "minecraft:shaper"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_chestplate",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:netherite",
+									"pattern": "minecraft:tide"
+								}
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/chestplate",
+							"only_compatible": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_chestplate",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:redstone",
+									"pattern": "minecraft:host"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_chestplate",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:quartz",
+									"pattern": "minecraft:ward"
+								}
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/chestplate",
+							"only_compatible": true
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:equipment"
+}

@@ -1,0 +1,16 @@
+{
+	"structures": [
+		{
+			"structure": "yggdrasil:glaosheimr",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1213557098,
+		"frequency": 1,
+		"spread_type": "linear",
+		"spacing": 30,
+		"separation": 20
+	}
+}

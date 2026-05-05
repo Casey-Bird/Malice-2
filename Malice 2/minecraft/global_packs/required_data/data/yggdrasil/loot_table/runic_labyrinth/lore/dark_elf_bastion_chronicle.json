@@ -1,0 +1,78 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.dark_elf_bastion_chronicle",
+								"fallback": "Chronicles of the Bastion: The Escape"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_labyrinth.lore.dark_elf_bastion_chronicle"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.dark_elf_bastion_chronicle.page1",
+									"fallback": "I still don't understand how the gods found us. We had to flee, far and fast. Return to the original world wasn't planned, nothing was prepared, but fate smiled upon us: deep within a building, we discovered a portal."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_bastion_chronicle.page2",
+									"fallback": "This portal belonged to a family I knew well, whose son was particularly talented. He has probably left this world - we can't find him anywhere and no longer sense his energy."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_bastion_chronicle.page3",
+									"fallback": "Thanks to him, we survived. We built this bastion and replicated it across the world. But the price was terrible: half of our people didn't survive. Like ants, we scattered through the labyrinth, while the gods waited at the exit."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_bastion_chronicle.page4",
+									"fallback": "Now that we're on the path of departure, they will surely follow us. I still can't understand how they knew where to find us. This question haunts me, but we no longer have time to think about it."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_labyrinth",
+									"fallback": "[Runic Labyrinth]",
+									"color": "#ffcbfc",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_labyrinth/lore"
+}

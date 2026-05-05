@@ -1,0 +1,16 @@
+{
+	"structures": [
+		{
+			"structure": "yggdrasil:asflors",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 77660097,
+		"frequency": 0.75,
+		"spread_type": "linear",
+		"spacing": 50,
+		"separation": 35
+	}
+}

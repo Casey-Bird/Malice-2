@@ -1,0 +1,95 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.runic_fracture.hidden_truth.name",
+								"fallback": "Hidden Truth of the Transcendent"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_fracture.lore.hidden_truth"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.runic_fracture.hidden_truth.page1",
+									"fallback": "If you wish to help me, know one thing: my goal in life is not to save the world - it's a rather selfish one. I have lived long enough in this world, and I know enough of its reality. I simply want my immortality to end. If you can find a way, I will grant you my powers."
+								},
+								{
+									"translate": "item.yggdrasil.runic_fracture.hidden_truth.page2",
+									"fallback": "Here's what I know about this world. The gods are not actually from this world, and being here seems like a game to them. They appear to enjoy destroying each other for pleasure - I don't understand it, it makes no sense."
+								},
+								{
+									"translate": "item.yggdrasil.runic_fracture.hidden_truth.page3",
+									"fallback": "I have met Odin several times in the past, and each time it seemed to be a different person. Moreover, the Gods come and stay for a period, then disappear for some time. There isn't just one god but all at once - I assume they all communicate with each other."
+								},
+								{
+									"translate": "item.yggdrasil.runic_fracture.hidden_truth.page4",
+									"fallback": "The second thing is, despite being gods, they don't have full power over this world. Each has specific attributes and capabilities; their power seems limited. While we mortals - at least I was one - have the ability to evolve as much as we want."
+								},
+								{
+									"translate": "item.yggdrasil.runic_fracture.hidden_truth.page5",
+									"fallback": "When I first spoke to Odin, he explained that their powers are limited. They don't use magic - it comes from a system."
+								},
+								{
+									"translate": "item.yggdrasil.runic_fracture.hidden_truth.page6",
+									"fallback": "When we use magic, we use the ambient particles, and if an area is empty, then magic is impossible. They, however, don't have this limitation and can use their powers at will."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_fracture",
+									"fallback": "[Runic Fracture]",
+									"color": "#ffffff",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_fracture/lore"
+}

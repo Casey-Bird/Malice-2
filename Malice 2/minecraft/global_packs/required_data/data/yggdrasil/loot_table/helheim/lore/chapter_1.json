@@ -1,0 +1,87 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.helheim.chronicles.ch1.title",
+								"fallback": "Chapter 1: L'Éveil dans les Ténèbres"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.lore.chapter_1"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch1.p1"
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch1.p2"
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch1.p3"
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch1.p4"
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch1.p5"
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.helheim.location",
+									"fallback": "[Helheim]",
+									"color": "#6b1616",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:helheim/lore"
+}

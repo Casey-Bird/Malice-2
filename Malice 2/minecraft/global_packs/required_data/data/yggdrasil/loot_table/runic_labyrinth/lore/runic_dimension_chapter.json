@@ -1,0 +1,78 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.chapter.runic_dimension",
+								"fallback": "Chapter: The Runic Dimension"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_labyrinth.lore.runic_dimension_chapter"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.chapter.runic_dimension.page1",
+									"fallback": "Beyond our realm lies a world of absolute stillness - the Runic Dimension. A place where neither sun nor moon grace the sky, where time itself ceases to exist. This dark void, infinite in its nothingness, once held me captive."
+								},
+								{
+									"translate": "item.yggdrasil.chapter.runic_dimension.page2",
+									"fallback": "The only remnants of life here are the traces left by the Dark Elves, ancient beings who mastered the art of dimensional travel. They built altars that serve as bridges between worlds."
+								},
+								{
+									"translate": "item.yggdrasil.chapter.runic_dimension.page3",
+									"fallback": "At the heart of their greatest creation - the Runic Labyrinth - lies a legendary artifact of immense power. This labyrinth echoes its counterpart in Niflheim, though its secrets are far more sinister."
+								},
+								{
+									"translate": "item.yggdrasil.chapter.runic_dimension.page4",
+									"fallback": "To reach this realm, one must return to the Runic Island and dig beneath the eternal tree, wielding the Authentic Rune of Rupture in hand. Only then will the veil between worlds tear, revealing this realm of eternal shadow."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_labyrinth",
+									"fallback": "[Runic Labyrinth]",
+									"color": "#ffcbfc",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_labyrinth/lore"
+}

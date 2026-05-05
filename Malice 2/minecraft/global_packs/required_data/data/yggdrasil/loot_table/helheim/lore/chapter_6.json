@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.helheim.chronicles.ch6.title",
+								"fallback": "Chapter 6: Whispers of Madness"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.lore.chapter_6"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch6.p1",
+									"fallback": "Time is running out. This \"game\" is coming to an end, and the other realms refuse any cooperation except for Odin."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch6.p2",
+									"fallback": "Each remains locked in their own objectives, unaware of the true nature of this world."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch6.p3",
+									"fallback": "I found the immortal child. This encounter... By all the gods, their power surpasses anything I could imagine."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch6.p4",
+									"fallback": "They have nothing left of the innocent being described in the ancient chronicles. Their eyes... they reflect millennia of suffering and madness. I nearly lost my life."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch6.p5",
+									"fallback": "With Odin's help, we managed to imprison them in their own dimension."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch6.p6",
+									"fallback": "Odin speaks of Ragnarök as the only solution and indeed I hadn't thought of it. It's in my opinion the only way to free this being from their torment."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.helheim.location",
+									"fallback": "[Helheim]",
+									"color": "#6b1616",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:helheim/lore"
+}

@@ -1,0 +1,74 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.dark_elf_village_chronicles",
+								"fallback": "Village Chronicles"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_labyrinth.lore.dark_elf_village_chronicles"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.dark_elf_village_chronicles.page1",
+									"fallback": "By chance, I was accustomed to traveling between dimensions. Each morning, I visited a small elven village in the normal world, returning each evening to my kin in the runic dimension."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_village_chronicles.page2",
+									"fallback": "This village, barely ten inhabitants strong, possessed a library with unique knowledge. Far from everything, their civilization had evolved differently. Could it be that our revolution had a positive impact on their development?"
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_village_chronicles.page3",
+									"fallback": "Their kindness touched me. These elves, once our enemies, unknowingly taught me secrets that even we didn't know."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_labyrinth",
+									"fallback": "[Runic Labyrinth]",
+									"color": "#ffcbfc",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_labyrinth/lore"
+}

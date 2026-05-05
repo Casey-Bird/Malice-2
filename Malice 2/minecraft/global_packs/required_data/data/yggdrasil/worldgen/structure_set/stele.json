@@ -1,0 +1,36 @@
+{
+	"structures": [
+		{
+			"structure": "yggdrasil:zenflors",
+			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:voroblom",
+			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:lifblom",
+			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:helblom",
+			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:proto_fracture",
+			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:neogard",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 52660097,
+		"frequency": 0.45,
+		"spread_type": "linear",
+		"spacing": 30,
+		"separation": 20
+	}
+}

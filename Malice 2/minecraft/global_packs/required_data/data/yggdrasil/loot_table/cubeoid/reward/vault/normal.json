@@ -1,0 +1,115 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot",
+							"only_compatible": true
+						}
+					]
+				}
+			]
+		},
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "I.O.U - Cuboid",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:zombie_spawn_egg"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_leggings",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_boots",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_helmet",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "bow",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shulker_box"
+				}
+			]
+		}
+	],
+	"functions": [],
+	"random_sequence": "yggdrasil:runic_labyrinth/reward"
+}

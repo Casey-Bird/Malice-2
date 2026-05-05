@@ -1,0 +1,108 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.helheim.chronicles.quest.familiar.title",
+								"fallback": "The Origins of the Familiar"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.lore.quest_familiar"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.familiar.p1",
+									"fallback": "In the tower, beneath the first staircase, you will find a rune."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.familiar.p2",
+									"fallback": "It contains the true essence of what remains of the immortal child's innocence - a fox that accompanied them in their last moments of clarity."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.familiar.p3",
+									"fallback": "The fox appeared during my final encounter with the immortal child."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.familiar.p4",
+									"fallback": "As we fought, I noticed this creature following them, seeming to absorb every spark of goodness that still escaped from their tormented soul."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.familiar.p5",
+									"fallback": "This creature is no ordinary animal. It carries the last fragments of the child's humanity, their ability to love, to protect."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.familiar.p6",
+									"fallback": "The fox absorbed these qualities as the child gradually descended into madness."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.familiar.p7",
+									"fallback": "Take care of it. It will be your guide, your protector."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.familiar.p8",
+									"fallback": "It represents everything we should have preserved, everything we must try to restore over the centuries as the child lost their humanity."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.familiar.p9",
+									"fallback": "I managed to capture its essence in a rune, freeing it means protecting the mortals."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.helheim.location",
+									"fallback": "[Helheim]",
+									"color": "#6b1616",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:helheim/lore"
+}

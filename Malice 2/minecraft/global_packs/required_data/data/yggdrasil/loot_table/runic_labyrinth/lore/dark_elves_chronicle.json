@@ -1,0 +1,102 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.dark_elves_chronicle",
+								"fallback": "Chronicle of the Dark Elves"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_labyrinth.lore.dark_elves_chronicle"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.dark_elves_chronicle.page1a",
+									"fallback": "We, the Dark Elves, have always been different. While our cousins, the Light Elves, were worshipped for their natural connection to magic and nature, we were born rejected by that same magic."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elves_chronicle.page1b",
+									"fallback": "Our bodies, so different from theirs, were not predisposed to conventional magic, but we carried within us a darker, deeper gift."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elves_chronicle.page2a",
+									"fallback": "For centuries, we endured the contempt of other races. Our sensitivity made us feel every disdainful look, every cruel word. But we were not a people of destruction - until their arrogance became unbearable."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elves_chronicle.page2b",
+									"fallback": "We then used our gift for dark magic, not to kill, but to erase centuries of elvish progress."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elves_chronicle.page3a",
+									"fallback": "In our exile, we took their knowledge - every book, every tablet, every fragment of knowledge. Our greatest challenge then became achieving total mastery over magic."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elves_chronicle.page3b",
+									"fallback": "We developed ways to control white magic, but it was our gift for dark magic that allowed us to explore the unthinkable: proto-magic."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elves_chronicle.page4",
+									"fallback": "Proto-magic transcends the laws of our universe, as if emanating from a greater reality. We tamed it in the form of runes, capable of containing complex magical mechanisms. Over the centuries, we mastered the secrets of time and space."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elves_chronicle.page5",
+									"fallback": "The Runic Island was our first major creation - a test complex enough to discourage the weak, but not enough to completely prevent access to the most determined. For beyond lies our true masterpiece: the Runic Labyrinth."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elves_chronicle.page6",
+									"fallback": "The Labyrinth is our greatest ruse. In this void dimension where neither food nor water exists, visitors are forced to enter it to survive. But its complexity is such that it becomes their tomb. Only true Dark Elves can unravel its secrets."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elves_chronicle.page7",
+									"fallback": "To those who find these writings: this realm is not a refuge, but a trap. The void that surrounds you is only the beginning of your trial. The Labyrinth awaits, and with it, either your doom or your revelation."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_labyrinth",
+									"fallback": "[Runic Labyrinth]",
+									"color": "#ffcbfc",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_labyrinth/lore"
+}

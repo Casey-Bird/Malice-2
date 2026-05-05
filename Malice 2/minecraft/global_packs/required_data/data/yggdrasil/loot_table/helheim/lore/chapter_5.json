@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.helheim.chronicles.ch5.title",
+								"fallback": "Chapter 5: The Second Heir"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.lore.chapter_5"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch5.p1",
+									"fallback": "The archives of Helheim are vaster than I imagined. Each new Hel seems to have contributed to this collection of knowledge."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch5.p2",
+									"fallback": "I couldn't have dreamed better, I am the eleventh incarnation of Hel."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch5.p3",
+									"fallback": "I found a particularly touching account from Hel II. She warns against using the power of immortality - an irreversible gift that persists even after our \"games\" end."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch5.p4",
+									"fallback": "Yet, she too succumbed to this temptation. She speaks of a wise old man to whom she offered eternity, seduced by his knowledge."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch5.p5",
+									"fallback": "Their love story runs through the pages of her journals."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch5.p6",
+									"fallback": "So two immortals walk somewhere in this world... Bearing the burden of our \"game\" for eternity."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.helheim.location",
+									"fallback": "[Helheim]",
+									"color": "#6b1616",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:helheim/lore"
+}

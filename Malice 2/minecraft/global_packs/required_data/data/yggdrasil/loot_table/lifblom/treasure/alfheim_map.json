@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.alfheim.map",
+								"fallback": "Alfheim Map"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:rarity": "epic",
+								"minecraft:map_color": 16777215,
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.alfheim.treasure.alfheim_map"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "yggdrasil:alfheim_tree",
+							"decoration": "mansion"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.alfheim.location",
+									"fallback": "[Alfheim Tree]",
+									"color": "#9a0031",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:lifblom/treasure"
+}

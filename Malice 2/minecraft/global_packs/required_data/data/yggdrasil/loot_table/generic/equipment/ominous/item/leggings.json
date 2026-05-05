@@ -1,0 +1,144 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_leggings",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:amethyst",
+									"pattern": "minecraft:coast"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_leggings",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:copper",
+									"pattern": "minecraft:raiser"
+								}
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/leggings",
+							"only_compatible": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_leggings",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:diamond",
+									"pattern": "minecraft:shaper"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_leggings",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:netherite",
+									"pattern": "minecraft:tide"
+								}
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/leggings",
+							"only_compatible": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_leggings",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:redstone",
+									"pattern": "minecraft:ward"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_leggings",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:quartz",
+									"pattern": "minecraft:wayfinder"
+								}
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/leggings",
+							"only_compatible": true
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:equipment"
+}

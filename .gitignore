@@ -20,18 +20,24 @@ hs_err_pid*
 *.tmp
 
 
-minecraft/.mixin.out
-coremods
-crash-reports
-data
-datapacks
-defaultconfigs
-downloads
-local
-logs
-moddata
-mods
-resourcepacks
-libs
-
+Malice 2/minecraft/.mixin.out
+Malice 2/minecraft/coremods
+Malice 2/minecraft/crash-reports
+Malice 2/minecraft/data
+Malice 2/minecraft/datapacks
+Malice 2/minecraft/defaultconfigs
+Malice 2/minecraft/downloads
+Malice 2/minecraft/local
+Malice 2/minecraft/logs
+Malice 2/minecraft/moddata
+Malice 2/minecraft/mods
+Malice 2/minecraft/resourcepacks
+Malice 2/minecraft/libs
+Malice 2/minecraft/saves
+Malice 2/minecraft/screenshots
+Malice 2/minecraft/server-resource-packs
+Malice 2/minecraft/shaderpacks
+Malice 2/minecraft/texturepacks
+Malice 2/minecraft/xaero
+Malice 2/minecraft/options.txt
 

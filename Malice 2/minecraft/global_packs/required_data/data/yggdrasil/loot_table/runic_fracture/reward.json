@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "yggdrasil:runic_fracture/chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/lore/chronicles_of_trials"
+				}
+			]
+		},
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "I.O.U - Runic Fracture",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:runic_fracture/enchanted_book/boss_trial_spawner"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/key/ominous"
+				}
+			]
+		}
+	]
+}

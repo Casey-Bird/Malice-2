@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 6,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:runic_labyrinth/enchanted_book/vault"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:runic_labyrinth/key/ominous"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/reward/normal/trial"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/reward/normal/equipement"
+				}
+			]
+		},
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "I.O.U - Runic Labyrinth",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:runic_labyrinth/lore/dark_elf_discovery_journal",
+					"weight": 1,
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_labyrinth/reward"
+}

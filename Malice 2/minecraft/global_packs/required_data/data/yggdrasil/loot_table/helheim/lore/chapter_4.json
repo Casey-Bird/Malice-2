@@ -1,0 +1,104 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.helheim.chronicles.ch4.title",
+								"fallback": "Chapter 4: The Cursed Gift"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.lore.chapter_4"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch4.p1",
+									"fallback": "I'm trying to find this child but so far in vain, they must be in a neighboring realm."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch4.p2",
+									"fallback": "The story of this child takes a dark turn. On the walls of Helheim, I found traces."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch4.p3",
+									"fallback": "This gift of immortality, meant to be a blessing, transformed into a curse."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch4.p4",
+									"fallback": "The eternal child, once described as full of life, has traversed millennia of wars and chaos."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch4.p5",
+									"fallback": "Unable to die, an eternal witness to our \"game\", they gradually lost their humanity."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch4.p6",
+									"fallback": "The echoes and rumors now speak of a being consumed by destruction, seeking to ease their madness in chaos."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch4.p7",
+									"fallback": "The first observer had described them as a child full of life, and seemed to love them, and the child seemed to say they felt protected. Hmm..."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch4.p8",
+									"fallback": "Not surprising, I would probably end up the same if I had no possibility of dying."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.helheim.location",
+									"fallback": "[Helheim]",
+									"color": "#6b1616",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:helheim/lore"
+}

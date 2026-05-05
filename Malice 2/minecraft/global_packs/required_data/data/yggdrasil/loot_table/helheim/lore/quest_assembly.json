@@ -1,0 +1,92 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.helheim.chronicles.quest.assembly.title",
+								"fallback": "The Assembly of Secrets"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.lore.quest_assembly"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.assembly.p1",
+									"fallback": "The pedestals in this room are not mere supports. Each represents a crucial moment in our history."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.assembly.p2",
+									"fallback": "When you place the chronicles, you will see the truth emerge in its entirety."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.assembly.p3",
+									"fallback": "The first Hel created an immortal child out of curiosity. The second granted immortality out of love."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.assembly.p4",
+									"fallback": "Others followed, each adding their stone to the edifice of our collective tragedy."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.quest.assembly.p5",
+									"fallback": "Only when you understand the whole story will you grasp the significance of the gift I am about to bestow upon you."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.helheim.location",
+									"fallback": "[Helheim]",
+									"color": "#6b1616",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:helheim/lore"
+}

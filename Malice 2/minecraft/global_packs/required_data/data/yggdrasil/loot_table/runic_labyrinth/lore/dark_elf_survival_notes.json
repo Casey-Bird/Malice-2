@@ -1,0 +1,74 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.dark_elf_survival_notes",
+								"fallback": "Dark Elf's Survival Notes"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_labyrinth.lore.dark_elf_survival_notes"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.dark_elf_survival_notes.page1",
+									"fallback": "Thanks to the village's knowledge, I learned to mask my magical signature. I wandered through the labyrinth, making it even more complex, adding layers of protection."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_survival_notes.page2",
+									"fallback": "The weeks passed, and my thoughts constantly returned to these kind elves. I yearned to see them again, but fear of the gods paralyzed me. Without infrastructure to travel between dimensions, I was trapped."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_survival_notes.page3",
+									"fallback": "I then made a desperate decision: create weapons so powerful they would drain all my magic, making me undetectable. I hid one beneath the entrance, another in a vault."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_labyrinth",
+									"fallback": "[Runic Labyrinth]",
+									"color": "#ffcbfc",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_labyrinth/lore"
+}

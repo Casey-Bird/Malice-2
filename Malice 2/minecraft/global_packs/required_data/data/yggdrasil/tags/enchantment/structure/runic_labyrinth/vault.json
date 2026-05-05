@@ -1,0 +1,9 @@
+{
+	"values": [
+		"#minecraft:non_treasure",
+		"minecraft:mending",
+		"#minecraft:tradeable",
+		"minecraft:wind_burst",
+		"minecraft:multishot"
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.dark_elf_discovery_journal",
+								"fallback": "Journal of Discoveries"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_labyrinth.lore.dark_elf_discovery_journal"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.dark_elf_discovery_journal.page1",
+									"fallback": "While ascending from the depths, I discovered something extraordinary: abandoned bastions. Exploring them, I found portals to the normal world."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_discovery_journal.page2",
+									"fallback": "My heart raced - perhaps my family had managed to escape the gods? Were these structures their work? Hope, after so much despair, was almost unbearable."
+								},
+								{
+									"translate": "item.yggdrasil.dark_elf_discovery_journal.page3",
+									"fallback": "I made my decision. Without looking back, I crossed the portal. Freedom awaited on the other side, even if it meant abandoning our creation."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.location.runic_labyrinth",
+									"fallback": "[Runic Labyrinth]",
+									"color": "#ffcbfc",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:runic_labyrinth/lore"
+}

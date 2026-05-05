@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.chronicles_of_trials",
+								"fallback": "Chronicles of the Trials Conquered"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.lore.chronicles_of_trials"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.chronicles_of_trials.page1",
+									"fallback": "Congratulations, brave soul! You have successfully passed my trials and proven your worth."
+								},
+								{
+									"translate": "item.yggdrasil.chronicles_of_trials.page2",
+									"fallback": "Take this key, a symbol of your achievement, and recover my treasure. You will find it in the village of Aslors, where you discovered the Sword of Rupture."
+								},
+								{
+									"translate": "item.yggdrasil.chronicles_of_trials.page3",
+									"fallback": "In the Hall of the Sword of Asflors, you will find a pedestal at the back of the room. Find the real rune of rupture, and use it on this pedestal to reveal access to my treasure."
+								},
+								{
+									"translate": "item.yggdrasil.chronicles_of_trials.page4",
+									"fallback": "I hope that with it, you will be able to forge a new destiny, one worthy of the legacy you carry. But I won't reveal too much just yet; let the journey unfold before you."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.location.asflors",
+									"fallback": "[Village of Asflors]",
+									"color": "#ffcbfc",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asflors/lore"
+}

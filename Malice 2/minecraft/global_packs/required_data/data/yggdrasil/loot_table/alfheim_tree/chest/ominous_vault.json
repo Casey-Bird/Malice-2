@@ -1,0 +1,83 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:alfheim_tree/chest/reward/rare",
+					"weight": 2
+				}
+			],
+			"rolls": 1.0
+		},
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:alfheim_tree/chest/reward/common"
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 3.0,
+				"min": 1.0
+			}
+		},
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"chance": 0.25,
+					"condition": "minecraft:random_chance"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:alfheim_tree/chest/reward/unique"
+				}
+			],
+			"rolls": 1.0
+		},
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:alfheim_tree/enchanted_book/ominous_vault",
+					"weight": 2,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.35
+						}
+					]
+				}
+			],
+			"rolls": 2.0
+		},
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "I.O.U",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+	],
+	"random_sequence": "yggdrasil:alfheim_tree/chest"
+}

@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/treasure/real_asflors_sword"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/enchanted_book/ominous_vault"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/lore/secret_chapter_9"
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asflors/chest"
+}

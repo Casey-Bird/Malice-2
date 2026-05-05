@@ -1,0 +1,104 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.helheim.chronicles.ch10.title",
+								"fallback": "Secret Chapter 10: The Last Page"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.lore.chapter_10"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch10.p1",
+									"fallback": "Well, I'm tired, the final battle is tomorrow. I'm really exhausted, but the discussions with Odin give me so much hope."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch10.p2",
+									"fallback": "It's time for all these crimes to end."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch10.p3",
+									"fallback": "When I found the child, they were accompanied by a fox. Now that the child is safe in their dimension, You who read this can use this fox."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch10.p4",
+									"fallback": "It emanates an aura of protection and wisdom - as if it had absorbed all that remained of humanity in the child."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch10.p5",
+									"fallback": "Use it to protect the mortals."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch10.p6",
+									"fallback": "If I fail, I leave you then the responsibility, that of saving these immortals through Ragnarök. This is my last entry, make good use of it."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch10.p7",
+									"fallback": "The fox waits in the vault, it is locked in a rune. To summon it, use the rune - the one with the orange gem."
+								},
+								{
+									"translate": "item.yggdrasil.helheim.chronicles.ch10.p8",
+									"fallback": "It has become one with the child's essence now, perhaps the last trace of their lost innocence."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.helheim.location",
+									"fallback": "[Helheim]",
+									"color": "#6b1616",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:helheim/lore"
+}
