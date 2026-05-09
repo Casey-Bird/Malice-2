@@ -1,10 +1,7 @@
 package net.maven.malady.core.items;
 
 import net.maven.malady.Malady;
-import net.maven.malady.core.items.soul.BrimstoneSoulCrystal;
-import net.maven.malady.core.items.soul.InfernalSoulCrystal;
-import net.maven.malady.core.items.soul.LesserSoulCrystal;
-import net.maven.malady.core.items.soul.UndeadSoulCrystal;
+import net.maven.malady.core.items.soul.*;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -35,6 +32,11 @@ public class CoreItems {
     public static final Supplier<Item> INFERNAL_SOUL_CRYSTAL = ITEMS.register(
             "infernal_soul_crystal",
             InfernalSoulCrystal::new
+    );
+
+    public static final Supplier<Item> FROSTED_SOUL_CRYSTAL = ITEMS.register(
+            "frosted_soul_crystal",
+            FrostedSoulCrystal::new
     );
 
 }
