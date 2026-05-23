@@ -1,0 +1,10 @@
+["EpicFight Sword Light Modifications"]
+	# Default: 3
+	# Range: 1 ~ 3
+	trailType = 3
+	overlayTrail = []
+	brighter = true
+	# Default: 3
+	# Range: 1 ~ 3
+	PlayerTrailType = 3
+	PlayerOverlayTrail = []

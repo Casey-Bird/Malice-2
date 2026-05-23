@@ -26,6 +26,3 @@
 	# Range: > 0
 	skillReplaceCooldown = 6000
 	allow_vanilla_melee = false
-	# Default: 3
-	# Range: 0 ~ 16
-	maxPassiveSkills = 3

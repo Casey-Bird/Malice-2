@@ -9,7 +9,7 @@
 	can_Crawl = true
 	can_Dive = true
 	can_Dodge = true
-	can_FastRun = true
+	can_FastRun = false
 	can_FastSwim = true
 	can_Flipping = true
 	can_HangDown = true

@@ -13,7 +13,7 @@
 		permit_Crawl = true
 		permit_Dive = true
 		permit_Dodge = true
-		permit_FastRun = true
+		permit_FastRun = false
 		permit_FastSwim = true
 		permit_Flipping = true
 		permit_HangDown = true
