@@ -7,6 +7,8 @@
   "mixins": [
     "parcool.LightStaminaHUDMixin",
 
+    "statistics.SleepMixin",
+
     "bonded.GameplayHookMixin",
     "bonded.BondBonusRegistryMixin",
     "bonded.GearManagerMixin",

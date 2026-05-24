@@ -7,3 +7,11 @@
 /gamemode survival
 /time set day
 /gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/undeadnights spawn_horde @s
+/gamemode survival
+/gamemode creative
+/locate biome minecraft:forest
+/tp @s -1719 135 -1807
