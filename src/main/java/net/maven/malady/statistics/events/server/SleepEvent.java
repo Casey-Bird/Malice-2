@@ -8,6 +8,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.CanContinueSleepingEvent;
 import net.neoforged.neoforge.event.entity.player.CanPlayerSleepEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerSetSpawnEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerWakeUpEvent;
 import net.neoforged.neoforge.event.level.SleepFinishedTimeEvent;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
@@ -44,11 +45,17 @@ public class SleepEvent {
         event.setTimeAddition(0);
     }
 
+
     @SubscribeEvent
     public static void onSleepContinue(CanContinueSleepingEvent event) {
         event.setContinueSleeping(true);
     }
 
 
+    @SubscribeEvent
+    public static void onPlayerSetSpawnEvent(PlayerSetSpawnEvent event) {
+        event.setCanceled(true);
+
+    }
 
 }
