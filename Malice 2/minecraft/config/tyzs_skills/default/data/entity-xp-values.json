@@ -1,0 +1,109 @@
+{
+  "category_A": {
+    "xp": 2.5,
+    "id": [
+      "minecraft:chicken",
+      "minecraft:endermite",
+      "minecraft:pufferfish",
+      "minecraft:rabbit",
+      "minecraft:silverfish"
+    ]
+  },
+  "category_B": {
+    "xp": 5.0,
+    "id": [
+      "minecraft:cod",
+      "minecraft:cow",
+      "minecraft:magma_cube",
+      "minecraft:mooshroom",
+      "minecraft:pig",
+      "minecraft:salmon",
+      "minecraft:sheep",
+      "minecraft:tropical_fish",
+      "minecraft:wolf"
+    ]
+  },
+  "category_C": {
+    "xp": 12.5,
+    "id": [
+      "minecraft:bogged",
+      "minecraft:creeper",
+      "minecraft:drowned",
+      "minecraft:husk",
+      "minecraft:skeleton",
+      "minecraft:slime",
+      "minecraft:spider",
+      "minecraft:stray",
+      "minecraft:zoglin",
+      "minecraft:zombie",
+      "minecraft:zombie_horse",
+      "minecraft:zombie_villager",
+      "minecraft:zombified_piglin",
+      "#minecraft:skeletons",
+      "minecraft:cave_spider",
+      "#minecraft:zombies",
+      "#c:skeletons",
+      "#c:zombies"
+    ]
+  },
+  "category_D": {
+    "xp": 17.0,
+    "id": [
+      "minecraft:hoglin",
+      "minecraft:piglin",
+      "minecraft:shulker",
+      "minecraft:vex",
+      "minecraft:witch"
+    ]
+  },
+  "category_E": {
+    "xp": 20.0,
+    "id": [
+      "minecraft:blaze",
+      "minecraft:ghast",
+      "minecraft:pillager",
+      "minecraft:vindicator",
+      "#minecraft:illager",
+      "#minecraft:raiders"
+    ]
+  },
+  "category_F": {
+    "xp": 25.0,
+    "id": [
+      "minecraft:breeze",
+      "minecraft:evoker",
+      "minecraft:guardian",
+      "minecraft:ravager"
+    ]
+  },
+  "category_G": {
+    "xp": 45.0,
+    "id": [
+      "minecraft:enderman",
+      "minecraft:phantom",
+      "minecraft:piglin_brute",
+      "minecraft:skeleton_horse",
+      "minecraft:wither_skeleton"
+    ]
+  },
+  "category_H": {
+    "xp": 250.0,
+    "id": [
+      "minecraft:elder_guardian"
+    ]
+  },
+  "category_I": {
+    "xp": 750.0,
+    "id": [
+      "minecraft:ender_dragon",
+      "minecraft:wither",
+      "#c:bosses"
+    ]
+  },
+  "category_J": {
+    "xp": 1000.0,
+    "id": [
+      "minecraft:warden"
+    ]
+  }
+}

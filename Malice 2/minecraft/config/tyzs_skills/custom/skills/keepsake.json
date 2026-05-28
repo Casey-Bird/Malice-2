@@ -1,0 +1,37 @@
+{
+  "active": false,
+  "id": "keepsake",
+  "maximumLevel": 8,
+  "prices": [
+    4,
+    6,
+    8,
+    12,
+    16,
+    20,
+    25,
+    30
+  ],
+  "type": "IMMUTABLE",
+  "category": "misc",
+  "icon": "tyzs_skills:textures/gui/skills/keepsake.png",
+  "displayName": "skill.tyzs_skills.keepsake.displayName",
+  "description": "skill.tyzs_skills.keepsake.description",
+  "modifiers": [],
+  "customValues": {
+    "saved_slots": {
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0
+      ],
+      "unit": "skill.tyzs_skills.unit.slot"
+    }
+  },
+  "config": {}
+}

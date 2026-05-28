@@ -1,0 +1,31 @@
+{
+  "active": true,
+  "id": "experience_boost",
+  "maximumLevel": 5,
+  "prices": [
+    4,
+    6,
+    8,
+    12,
+    16
+  ],
+  "type": "IMMUTABLE",
+  "category": "misc",
+  "icon": "tyzs_skills:textures/gui/skills/experience_boost.png",
+  "displayName": "skill.tyzs_skills.experience_boost.displayName",
+  "description": "skill.tyzs_skills.experience_boost.description",
+  "modifiers": [],
+  "customValues": {
+    "bonus_percentage": {
+      "values": [
+        20.0,
+        40.0,
+        60.0,
+        80.0,
+        100.0
+      ],
+      "unit": "skill.tyzs_skills.unit.percentage"
+    }
+  },
+  "config": {}
+}

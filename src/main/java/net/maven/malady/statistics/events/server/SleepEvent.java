@@ -54,7 +54,10 @@ public class SleepEvent {
 
     @SubscribeEvent
     public static void onPlayerSetSpawnEvent(PlayerSetSpawnEvent event) {
-        event.setCanceled(true);
+        // event.setCanceled(true);
+
+        // TODO Allow certain blocks to set spawn points
+
 
     }
 

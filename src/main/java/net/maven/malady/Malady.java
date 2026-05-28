@@ -5,6 +5,7 @@ import net.maven.malady.core.CoreClient;
 import net.maven.malady.currency.Currency;
 import net.maven.malady.currency.CurrencyClient;
 import net.maven.malady.currency.commands.CurrencyCommands;
+import net.maven.malady.statistics.Statistics;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -54,6 +55,7 @@ public class Malady
         // Modules
         Core.init(modEventBus, modContainer); // All general Malady module code, typically involves items that change or alter vanilla Minecraft in some way
         Currency.init(modEventBus, modContainer); // Currency system module
+        Statistics.init(modEventBus); // Statistics & Moodles
 
     }
 

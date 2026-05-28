@@ -1,0 +1,7 @@
+{
+  "test": {
+    "displayName": "gui.tyzs_skills.Tab.abilities",
+    "icon": "minecraft:textures/item/iron_boots.png",
+    "order": 1
+  }
+}

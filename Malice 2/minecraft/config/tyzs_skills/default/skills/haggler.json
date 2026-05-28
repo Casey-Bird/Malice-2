@@ -1,0 +1,38 @@
+{
+  "active": true,
+  "id": "haggler",
+  "maximumLevel": 4,
+  "prices": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "type": "IMMUTABLE",
+  "category": "misc",
+  "icon": "tyzs_skills:textures/gui/skills/haggler.png",
+  "displayName": "skill.tyzs_skills.haggler.displayName",
+  "description": "skill.tyzs_skills.haggler.description",
+  "modifiers": [],
+  "customValues": {
+    "villager_speed": {
+      "values": [
+        0.0,
+        5.0,
+        5.0,
+        10.0
+      ],
+      "unit": "skill.tyzs_skills.unit.percentage"
+    },
+    "block_radius": {
+      "values": [
+        10.0,
+        15.0,
+        20.0,
+        25.0
+      ],
+      "unit": "skill.tyzs_skills.unit.block_radius"
+    }
+  },
+  "config": {}
+}

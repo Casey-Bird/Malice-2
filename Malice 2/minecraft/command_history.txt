@@ -15,3 +15,4 @@
 /gamemode creative
 /locate biome minecraft:forest
 /tp @s -1719 135 -1807
+/gamemode creative
