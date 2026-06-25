@@ -1,0 +1,25 @@
+{
+  "title": "Firefly Collector",
+  "description": "Gather glowing fireflies from the enchanted forest. They make excellent mood lighting.",
+  "description_completed": "Your collection of fireflies lights up the night!",
+  "icon": "twilightforest:firefly",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "twilightforest:firefly",
+      "required_amount": 20,
+      "name": "Glow Getter"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:moonworm_queen",
+      "count": 1
+    }
+  ],
+  "chapter": "twilight_forest"
+}

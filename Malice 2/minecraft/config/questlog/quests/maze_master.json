@@ -1,0 +1,29 @@
+{
+  "title": "Maze Master",
+  "description": "Find your way into the labyrinth.",
+  "description_completed": "You have found the great labyrinth.",
+  "icon": "twilightforest:maze_map",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "twilightforest:labyrinth",
+      "name": "Labyrinth Visitor"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:maze_map",
+      "count": 1
+    },
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:mazestone_brick",
+      "count": 8
+    }
+  ],
+  "chapter": "twilight_forest"
+}

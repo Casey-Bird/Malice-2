@@ -13,19 +13,22 @@ public class CurrencyAPI {
         Adds currency to a given player
     */
     public static void addCurrency(Player player, int amount) {
-        CurrencyData data = CurrencyData.get(player);
 
-        int current_currency = data.getCurrency();
-        System.out.println(current_currency);
+        return;
 
-        if (data != null) {
-            data.addCurrency(amount);
-
-            if (player instanceof ServerPlayer serverPlayer) {
-                syncCurrency(serverPlayer);
-            }
-
-        }
+//        CurrencyData data = CurrencyData.get(player);
+//
+//        int current_currency = data.getCurrency();
+//        System.out.println(current_currency);
+//
+//        if (data != null) {
+//            data.addCurrency(amount);
+//
+//            if (player instanceof ServerPlayer serverPlayer) {
+//                syncCurrency(serverPlayer);
+//            }
+//
+//        }
 
     }
 

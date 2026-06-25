@@ -1,0 +1,24 @@
+{
+  "title": "Troll Treasure",
+  "description": "Find a Troll Cave and set foot inside. The trolls hide the best trinkets.",
+  "description_completed": "You've raided the trolls' den! Their hoard is your gain.",
+  "icon": "twilightforest:trollsteinn",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "twilightforest:troll_cave",
+      "name": "Cave Raider"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:scepter_of_discord",
+      "count": 1
+    }
+  ],
+  "chapter": "twilight_forest"
+}

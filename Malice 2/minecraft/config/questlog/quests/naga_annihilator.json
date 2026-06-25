@@ -1,0 +1,30 @@
+{
+  "title": "Naga Annihilator",
+  "description": "The Naga of the Courtyard must fall. Prove your skills as a warrior and confront it.",
+  "description_completed": "The great serpent is no more. The Courtyard is safe.",
+  "icon": "twilightforest:naga_scale",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "twilightforest:naga",
+      "required_amount": 1,
+      "name": "Serpent Slayer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:naga_scale",
+      "count": 4
+    },
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:magic_map",
+      "count": 1
+    }
+  ],
+  "chapter": "twilight_forest"
+}

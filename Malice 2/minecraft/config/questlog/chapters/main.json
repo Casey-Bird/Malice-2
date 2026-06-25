@@ -1,0 +1,8 @@
+{
+  "name": "Chapter I",
+  "icon": {
+    "item": "minecraft:knowledge_book"
+  },
+  "default_chapter": true,
+  "hidden": false
+}

@@ -1,5 +1,5 @@
 {
-  "active": false,
+  "active": true,
   "id": "backstab",
   "maximumLevel": 5,
   "prices": [
@@ -18,11 +18,11 @@
   "customValues": {
     "damage_buff": {
       "values": [
-        5.0,
-        10.0,
-        15.0,
-        20.0,
-        25.0
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0
       ],
       "unit": "skill.tyzs_skills.unit.percentage"
     }

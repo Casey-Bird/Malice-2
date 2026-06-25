@@ -1,0 +1,30 @@
+{
+  "title": "Yeti Expedition",
+  "description": "Brave the snowy peaks and take down the Alpha Yeti in its lair.",
+  "description_completed": "The Alpha Yeti is beaten. The nearby snow villages are safe from it's wrath.",
+  "icon": "twilightforest:alpha_fur",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "twilightforest:alpha_yeti",
+      "required_amount": 1,
+      "name": "Yeti Buster"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:alpha_fur",
+      "count": 4
+    },
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:ice_bomb",
+      "count": 8
+    }
+  ],
+  "chapter": "twilight_forest"
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Frozen Solid",
+  "description": "Test",
+  "description_completed": "test2",
+  "icon": "minecraft:stick",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "block_factorys_bosses:sandworm",
+      "required_amount": 1,
+      "name": "Sandworm Slayer"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:cactus",
+      "required_amount": 50,
+      "name": "Cacti Collector"
+    },
+    {
+      "type": "questlog:visit_structure",
+      "structure": "minecraft:village_snow",
+      "name": "Speak to the Locals"
+    }
+  ],
+
+  "rewards":[
+    {
+      "type": "questlog:item",
+      "item": "malady:frosted_soul_crystal",
+      "count": 1
+    }
+  ],
+  "chapter": "main"
+}

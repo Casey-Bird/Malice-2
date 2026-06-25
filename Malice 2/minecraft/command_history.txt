@@ -16,3 +16,20 @@
 /locate biome minecraft:forest
 /tp @s -1719 135 -1807
 /gamemode creative
+/gamemode survival
+/gamemode creative
+/ql
+/questlog
+/questlog edit_mode
+/questlog edit_mode true notmaven
+/time set day
+/questlog open questlog:main notmaven
+/questlog open
+/locate structure minecraft:village_desert
+/tp @s 2320 ~ 1920
+/questlog open
+/questlog reload
+/questlog open
+/gamemode survival
+/questlog open
+/gamemode creative

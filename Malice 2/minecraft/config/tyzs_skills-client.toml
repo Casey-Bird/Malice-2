@@ -75,11 +75,11 @@
 	#X Position of the skill inventory button
 	# Default: 3
 	# Range: -10000 ~ 10000
-	inventory_btn_x = 3
+	inventory_btn_x = 87
 	#Y Position of the skill inventory button
 	# Default: 3
 	# Range: -10000 ~ 10000
-	inventory_btn_y = 3
+	inventory_btn_y = 87
 
 [debug]
 	#Enable debug messages in chat

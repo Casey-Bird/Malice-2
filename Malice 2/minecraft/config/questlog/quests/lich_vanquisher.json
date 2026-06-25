@@ -1,0 +1,25 @@
+{
+  "title": "Lich Vanquisher",
+  "description": "Storm the Lich Tower and defeat the undead sorcerer.",
+  "description_completed": "The Lich has been vanquished from the magical forest and it's powerful veil lifted.",
+  "icon": "twilightforest:twilight_scepter",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "twilightforest:lich",
+      "required_amount": 1,
+      "name": "Lich Bane"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:scepter_of_life_draining",
+      "count": 1
+    }
+  ],
+  "chapter": "twilight_forest"
+}

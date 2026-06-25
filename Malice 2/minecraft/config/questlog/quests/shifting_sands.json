@@ -1,0 +1,38 @@
+{
+  "title": "Shifting Sands",
+  "description": "A creature lurks deep in the sands of the desert, the locals have asked for your assistance.",
+  "description_completed": "The desert is once again at peace, the locals are finally able to rest easy.",
+  "icon": "minecraft:stick",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "block_factorys_bosses:sandworm",
+      "required_amount": 1,
+      "name": "Sandworm Slayer"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:cactus",
+      "required_amount": 50,
+      "name": "Cacti Collector"
+    },
+    {
+      "type": "questlog:visit_structure",
+      "structure": "minecraft:village_desert",
+      "name": "Speak to the Locals"
+    }
+  ],
+
+  "rewards":[
+    {
+      "type": "questlog:item",
+      "item": "malady:brimstone_soul_crystal",
+      "count": 1
+    }
+  ],
+  "chapter": "main"
+}

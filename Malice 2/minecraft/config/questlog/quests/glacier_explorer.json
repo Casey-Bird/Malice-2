@@ -1,0 +1,24 @@
+{
+  "title": "Glacier Explorer",
+  "description": "Set foot in the icy Glacier biome. The Snow Queen's domain awaits.",
+  "description_completed": "You've braved the frozen wasteland. Take this charm as a token.",
+  "icon": "minecraft:ice",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "twilightforest:glacier",
+      "name": "Frozen Footsteps"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:charm_of_life",
+      "count": 1
+    }
+  ],
+  "chapter": "twilight_forest"
+}

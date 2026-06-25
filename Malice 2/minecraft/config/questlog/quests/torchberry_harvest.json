@@ -1,0 +1,25 @@
+{
+  "title": "Torchberry Harvest",
+  "description": "Gather torchberries from the trees of the Twilight Forest.",
+  "description_completed": "You've gathered a sack full of glowing berries!",
+  "icon": "twilightforest:torchberries",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "twilightforest:torchberries",
+      "required_amount": 32,
+      "name": "Berry Picker"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:lamp_of_cinders",
+      "count": 1
+    }
+  ],
+  "chapter": "twilight_forest"
+}

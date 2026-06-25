@@ -1,0 +1,30 @@
+{
+  "title": "Fire Incarnate",
+  "description": "Descend into the Hydra's Lair and put an end to the multi-headed beast.",
+  "description_completed": "The swamp no longer trembles. You've earned a feast!",
+  "icon": "twilightforest:hydra_chop",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "twilightforest:hydra",
+      "required_amount": 1,
+      "name": "Head Chopper"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:hydra_chop",
+      "count": 3
+    },
+    {
+      "type": "questlog:item",
+      "item": "twilightforest:fiery_blood",
+      "count": 1
+    }
+  ],
+  "chapter": "twilight_forest"
+}

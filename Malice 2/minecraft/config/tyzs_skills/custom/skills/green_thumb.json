@@ -1,13 +1,13 @@
 {
-  "active": false,
+  "active": true,
   "id": "green_thumb",
   "maximumLevel": 5,
   "prices": [
     2,
     2,
-    3,
-    3,
-    4
+    4,
+    4,
+    6
   ],
   "type": "IMMUTABLE",
   "category": "nature",
@@ -18,11 +18,11 @@
   "customValues": {
     "success_probability": {
       "values": [
+        5.0,
+        10.0,
         15.0,
-        30.0,
-        45.0,
-        60.0,
-        75.0
+        20.0,
+        25.0
       ],
       "unit": "skill.tyzs_skills.unit.percentage"
     }
