@@ -1,0 +1,39 @@
+{
+  "title": "Draconic Mantle",
+  "description": "There are myths of a dragon more powerful than all. The lord of ashes and dementor of fire. Seek out this dragon and vanquish it.",
+  "description_completed": "Flames were no match for your might. You have vanquished the Ashlord and claimed its soul.",
+  "icon": "minecraft:fire_charge",
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "block_factorys_bosses:ashlord",
+      "required_amount": 1,
+      "name": "Dragon Slayer"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "crittersandcompanions:dragonfly_wing",
+      "required_amount": 5,
+      "name": "Dragonfly Wing Collector"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "'luminous_butterflies:soul_monarch_jar'",
+      "required_amount": 1,
+      "name": "Soul Monarch Butterfly"
+    }
+  ],
+
+  "rewards":[
+    {
+      "type": "questlog:item",
+      "item": "'malady:infernal_soul_crystal'",
+      "count": 1
+    }
+  ],
+  "chapter": "main"
+}

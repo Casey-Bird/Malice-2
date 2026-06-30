@@ -2,7 +2,7 @@
   "title": "Shifting Sands",
   "description": "A creature lurks deep in the sands of the desert, the locals have asked for your assistance.",
   "description_completed": "The desert is once again at peace, the locals are finally able to rest easy.",
-  "icon": "minecraft:stick",
+  "icon": "block_factorys_bosses:vase",
   "toast_on_unlock": true,
   "toast_on_complete": true,
   "show_popup_on_unlock": false,

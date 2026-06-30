@@ -1,9 +1,3 @@
-/gamemode creative
-/bloodmoon moon_event start
-/gamemode survival
-/gamemode creative
-/kill
-/gamemode creative
 /gamemode survival
 /time set day
 /gamemode creative
@@ -33,3 +27,24 @@
 /gamemode survival
 /questlog open
 /gamemode creative
+/kubejs hand
+/gamemode survival
+/gamemode creative
+/kubejs hand
+/give notmaven malady:infernal_soul_crystal
+/questlog open
+/kubejs hand
+/gamemode survival
+/gamemode creative
+/questlog open
+/gamemode survival
+/gamemode creative
+/kubejs hand
+/locate biome minecraft:deep_ocean
+/tp @s -1458 71 905
+/time set day
+/locate biome minecraft:lukewarm_ocean
+/tp @s -1782 66 -620
+/kubejs hand
+/give notmaven malady:infernal_soul_crystal
+/kubejs hand

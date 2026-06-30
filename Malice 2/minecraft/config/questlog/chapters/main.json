@@ -1,7 +1,7 @@
 {
   "name": "Chapter I",
   "icon": {
-    "item": "minecraft:knowledge_book"
+    "item": "irons_spellbooks:wayward_compass"
   },
   "default_chapter": true,
   "hidden": false

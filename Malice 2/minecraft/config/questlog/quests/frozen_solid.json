@@ -1,8 +1,8 @@
 {
   "title": "Frozen Solid",
-  "description": "Test",
-  "description_completed": "test2",
-  "icon": "minecraft:stick",
+  "description": "A monster born of frost is tormenting the snowy plains of the Overworld. You must seek it out and destroy it.",
+  "description_completed": "You have overcome the ice and destroyed the Yeti. It left behind a soul crystal.",
+  "icon": "deeperdarker:ice_lily",
   "toast_on_unlock": true,
   "toast_on_complete": true,
   "show_popup_on_unlock": false,
@@ -10,20 +10,21 @@
   "objectives": [
     {
       "type": "questlog:entity_kill",
-      "entity": "block_factorys_bosses:sandworm",
+      "entity": "block_factorys_bosses:yeti",
       "required_amount": 1,
-      "name": "Sandworm Slayer"
+      "name": "Yeti Slayer"
     },
     {
       "type": "questlog:item_obtain",
-      "item": "minecraft:cactus",
-      "required_amount": 50,
-      "name": "Cacti Collector"
+      "item": "age_of_dragons:frostlok_head",
+      "required_amount": 1,
+      "name": "Frostlok Decapitator"
     },
     {
-      "type": "questlog:visit_structure",
-      "structure": "minecraft:village_snow",
-      "name": "Speak to the Locals"
+      "type": "questlog:item_obtain",
+      "item": "cold_sweat:goat_fur",
+      "required_amount": 5,
+      "name": "Warm Fur"
     }
   ],
 

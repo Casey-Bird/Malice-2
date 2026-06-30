@@ -1,5 +1,8 @@
 [
   {"version":1},
+  {"ingredient":{"id":"pastel:enchanted_star_candy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pastel:star_candy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kaleidoscope_cookery:desert_style_sashimi"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersiveengineering:stick_treated"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"aether:skyroot_stick"},"type":"item_stack","bookmarkType":"INGREDIENT"}

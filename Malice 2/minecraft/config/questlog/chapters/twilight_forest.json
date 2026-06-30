@@ -1,7 +1,7 @@
 {
   "name": "Twilight Forest",
   "icon": {
-    "item": "minecraft:knowledge_book"
+    "item": "twilightforest:naga_banner_pattern"
   },
   "default_chapter": false,
   "hidden": false
