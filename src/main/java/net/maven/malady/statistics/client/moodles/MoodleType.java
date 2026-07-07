@@ -2,7 +2,9 @@ package net.maven.malady.statistics.client.moodles;
 
 import com.momosoftworks.coldsweat.api.util.Temperature;
 import net.maven.malady.Malady;
+import net.maven.malady.statistics.api.MoodAPI;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
 
 import java.util.HashMap;
@@ -25,8 +27,19 @@ public enum MoodleType {
             3,
             "tired",
             player -> {
-                // Implement your tiredness logic here
-                return null; // Temporarily disabled
+
+                return null;
+            }
+    ),
+    HAPPY(
+            3,
+            "happy",
+            player -> {
+                int happiness_level =
+                if (happiness_level <= 1) return MoodleStage.TERRIBLE;
+                if (happiness_level <= 10) return MoodleStage.BAD;
+                if (happiness_level >= 20) return MoodleStage.GREAT;
+                return null;
             }
     ),
     COLD(
@@ -51,9 +64,7 @@ public enum MoodleType {
         if (temperature >= 25) return MoodleStage.BAD;
 
         return null;
-    }
-    );
-    // Add other moodle types...
+    });
 
     private final int position;
     private final String textureBase;

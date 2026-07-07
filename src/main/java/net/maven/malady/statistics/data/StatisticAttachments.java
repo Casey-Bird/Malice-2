@@ -12,12 +12,11 @@ public class StatisticAttachments {
     public static final DeferredRegister<AttachmentType<?>> ATTACHMENT_TYPES =
             DeferredRegister.create(NeoForgeRegistries.ATTACHMENT_TYPES, Malady.MODID);
 
-    // The attachment itself – default value = MoodData(0), saved with your CODEC
     public static final Supplier<AttachmentType<MoodData>> MOOD_DATA =
             ATTACHMENT_TYPES.register(
                     "mood_data",
                     () -> AttachmentType.<MoodData>builder(() -> new MoodData(0))
-                            .serialize(MoodData.CODEC)   // automatic NBT save/load
+                            .serialize(MoodData.CODEC)
                             .build()
             );
 
