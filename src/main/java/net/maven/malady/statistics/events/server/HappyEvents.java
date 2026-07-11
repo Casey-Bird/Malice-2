@@ -25,7 +25,7 @@ public class HappyEvents {
         Block placedBlock = event.getState().getBlock();
 
         if (placedBlock.builtInRegistryHolder().is(BlockTags.FLOWERS)) {
-            MoodAPI.addHappiness((ServerPlayer) player, 1);
+            MoodAPI.addHappiness((ServerPlayer) player, 50);
 
         }
     }

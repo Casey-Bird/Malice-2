@@ -2,6 +2,7 @@ package net.maven.malady.statistics.events.server;
 
 
 import net.maven.malady.Malady;
+import net.maven.malady.statistics.api.MoodAPI;
 import net.maven.malady.statistics.data.MoodData;
 import net.maven.malady.statistics.data.StatisticAttachments;
 import net.minecraft.server.level.ServerPlayer;
@@ -17,8 +18,9 @@ public class PlayerEvents {
         if (event.getEntity() instanceof ServerPlayer player) {
             MoodData current = player.getData(StatisticAttachments.MOOD_DATA);
             if (current.moodAmount() == 0) {
-                player.setData(StatisticAttachments.MOOD_DATA, new MoodData(100));
+                player.setData(StatisticAttachments.MOOD_DATA, new MoodData(500));
             }
+            MoodAPI.syncMoodToClient(player);
         }
     }
 

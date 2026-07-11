@@ -3,6 +3,8 @@ package net.maven.malady.statistics.client.moodles;
 import com.momosoftworks.coldsweat.api.util.Temperature;
 import net.maven.malady.Malady;
 import net.maven.malady.statistics.api.MoodAPI;
+import net.maven.malady.statistics.data.ClientMoodCache;
+import net.maven.malady.statistics.data.StatisticAttachments;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
@@ -35,10 +37,12 @@ public enum MoodleType {
             3,
             "happy",
             player -> {
-                int happiness_level =
-                if (happiness_level <= 1) return MoodleStage.TERRIBLE;
-                if (happiness_level <= 10) return MoodleStage.BAD;
-                if (happiness_level >= 20) return MoodleStage.GREAT;
+                int happiness_level = ClientMoodCache.get(player.getUUID()).moodAmount();
+                System.out.println(happiness_level);
+                // 0 or lower means the debuff is active //
+                if (happiness_level <= 100) return MoodleStage.TERRIBLE;
+                if (happiness_level <= 500) return MoodleStage.BAD;
+                if (happiness_level >= 800) return MoodleStage.GREAT;
                 return null;
             }
     ),

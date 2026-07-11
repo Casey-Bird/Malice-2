@@ -14,16 +14,16 @@ public class ServerTick {
 
 
     private static int tickCounter = 0;
-    private static final int ONE_MINUTE_TICKS = 20 * 60; // 1200
+    private static final int TICKS = 20 * 20; // Every 20 seconds // 20 * 20 is normal
 
 
     @SubscribeEvent
     public static void onServerTick(ServerTickEvent.Post event) {
         tickCounter++;
-        if (tickCounter >= ONE_MINUTE_TICKS) {
+        if (tickCounter >= TICKS) {
             tickCounter = 0;
             for (ServerPlayer player : event.getServer().getPlayerList().getPlayers()) {
-                MoodAPI.addSadness(player);
+                MoodAPI.addSadness(player, 1);
             }
         }
     }

@@ -6,6 +6,9 @@ import net.maven.malady.currency.Currency;
 import net.maven.malady.currency.CurrencyClient;
 import net.maven.malady.currency.commands.CurrencyCommands;
 import net.maven.malady.statistics.Statistics;
+import net.minecraft.core.Registry;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.effect.MobEffect;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
