@@ -9,6 +9,8 @@
 
     "statistics.SleepMixin",
 
+    "minecraft.TitleMixin",
+
     "bonded.GameplayHookMixin",
     "bonded.BondBonusRegistryMixin",
     "bonded.GearManagerMixin",
