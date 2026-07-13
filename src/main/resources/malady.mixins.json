@@ -10,6 +10,7 @@
     "statistics.SleepMixin",
 
     "minecraft.TitleMixin",
+    "minecraft.ExplorationMapFunctionMixin",
 
     "bonded.GameplayHookMixin",
     "bonded.BondBonusRegistryMixin",

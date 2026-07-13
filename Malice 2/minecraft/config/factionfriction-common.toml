@@ -1,0 +1,92 @@
+[general]
+	# Default: 5
+	# Range: 1 ~ 100
+	max_team_members = 5
+	# Default: 20
+	# Range: 1 ~ 200
+	max_colony_members = 20
+	# Default: 50
+	# Range: 1 ~ 500
+	max_country_members = 50
+	# Default: 16
+	# Range: 1 ~ 10000
+	max_claims_team = 16
+	# Default: 64
+	# Range: 1 ~ 10000
+	max_claims_colony = 64
+	# Default: 256
+	# Range: 1 ~ 10000
+	max_claims_country = 256
+	allow_entity_riding_in_claims = true
+
+[tier_up]
+	# Default: 3
+	# Range: 0 ~ 30
+	days_required = 3
+	# Default: 3
+	# Range: 1 ~ 100
+	members_for_colony = 3
+	# Default: 10
+	# Range: 1 ~ 100
+	members_for_country = 10
+
+[auto_borders]
+	enabled = true
+	# Default: 1
+	# Range: 1 ~ 3
+	thickness = 1
+	# Default: 3
+	# Range: 1 ~ 10
+	height = 3
+	# Default: 20
+	# Range: 1 ~ 10000
+	blocks_per_diamond = 20
+	wall_block = "minecraft:stone_bricks"
+	top_block = "minecraft:iron_bars"
+	# Default: 24
+	# Range: 0 ~ 720
+	cooldown_hours = 24
+	# Default: 1
+	# Range: 0 ~ 64
+	unloaded_flat_fee = 1
+
+[war_and_raids]
+	# Default: 2
+	# Range: 0 ~ 14
+	war_justify_days = 2
+	# Default: 30
+	# Range: 5 ~ 1440
+	raid_duration_minutes = 30
+	# Default: 3
+	# Range: 1 ~ 64
+	raid_max_chunks = 3
+	# Default: 60
+	# Range: 1 ~ 1440
+	rally_max_duration_minutes = 60
+	# Default: 50
+	# Range: 0 ~ 100
+	attack_required_online_percent = 50
+	# Default: 600
+	# Range: 0 ~ 3600
+	attack_prep_time_seconds = 600
+	# Default: 50
+	# Range: 1 ~ 10000
+	attack_blocks_required = 50
+	# Default: 60
+	# Range: 10 ~ 3600
+	attack_capture_time_seconds = 60
+	# Default: 120
+	# Range: 10 ~ 3600
+	attack_defense_time_seconds = 120
+	# Default: 60
+	# Range: 0 ~ 3600
+	surrender_delay_seconds = 60
+	#Cooldown in hours before a faction can justify a war after breaking an alliance.
+	# Default: 24
+	# Range: 0 ~ 720
+	alliance_break_cooldown_hours = 24
+
+[notifications]
+	notify_justify_war = true
+	notify_raid_start = true
+	notify_surrender = true

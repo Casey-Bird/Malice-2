@@ -1,31 +1,3 @@
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/undeadnights spawn_horde @s
-/gamemode survival
-/gamemode creative
-/locate biome minecraft:forest
-/tp @s -1719 135 -1807
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/ql
-/questlog
-/questlog edit_mode
-/questlog edit_mode true notmaven
-/time set day
-/questlog open questlog:main notmaven
-/questlog open
-/locate structure minecraft:village_desert
-/tp @s 2320 ~ 1920
-/questlog open
-/questlog reload
-/questlog open
-/gamemode survival
-/questlog open
-/gamemode creative
-/kubejs hand
 /gamemode survival
 /gamemode creative
 /kubejs hand
@@ -48,3 +20,31 @@
 /kubejs hand
 /time set day
 /questlog open
+/gamemode creative
+/locate biome minecraft:forest
+/tp @s -262 63 168
+/gamemode creative
+/setworldspawn ~ ~ ~
+/pregen start gen expansion
+/pregen processors
+/pregen start gen
+/pregen start gen worldborder primary minecraft:overworld NORMAL_GEN
+/pregen start gen radius primary SQUARE ~ ~ 1000 minecraft:overworld
+/pregen start gen radius primary SQUARE ~ ~ 500 minecraft:overworld
+/
+/pregen start gen expansion test SQUARE ~ ~ 500 1000 minecraft:overworld
+/pregen start gen expansion test SQUARE ~ ~ 100 707 minecraft:overworld
+/pregen start gen expansion test SQUARE ~ ~ 100 509 minecraft:overworld
+/pregen start gen radius Primary CIRCLE ~ ~ 900 minecraft:overworld
+/pregen start gen radius Primary CIRCLE ~ ~ 500 minecraft:overworld
+/
+/gamemode creative
+/pregen taskList
+/pregen taskList gen
+/pregen stop Primary false
+/pregen clear Primary
+/pregen start gen radius Overworld CIRCLE ~ ~ 500 minecraft:overworld
+/setworldspawn ~ ~ ~
+/gamemode survival
+/gamemode spectator
+/gamemode survival

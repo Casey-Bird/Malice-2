@@ -3,6 +3,7 @@
   "naturallySpawning": false,
   "hungerConsumption": false,
   "waterConsumption": false,
+  "naturalBreeding": false,
   "fePerSecond": 1000,
   "itemsPerSecond": 100,
   "milliBucketsPerSecond": 1000

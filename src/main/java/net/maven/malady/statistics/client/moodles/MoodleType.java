@@ -38,7 +38,6 @@ public enum MoodleType {
             "happy",
             player -> {
                 int happiness_level = ClientMoodCache.get(player.getUUID()).moodAmount();
-                System.out.println(happiness_level);
                 // 0 or lower means the debuff is active //
                 if (happiness_level <= 100) return MoodleStage.TERRIBLE;
                 if (happiness_level <= 500) return MoodleStage.BAD;
