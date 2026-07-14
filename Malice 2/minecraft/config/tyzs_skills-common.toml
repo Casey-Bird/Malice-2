@@ -5,7 +5,7 @@
 	#Percentage of the initial skill point cost refunded
 	# Default: 30.0
 	# Range: 0.0 ~ 100.0
-	refund_percentage = 30.0
+	refund_percentage = 100.0
 	#Allows players to purchase skills
 	purchase_system = true
 	#Prevent manually placed block from providing xp

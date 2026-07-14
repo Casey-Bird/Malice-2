@@ -1,5 +1,5 @@
 {
-  "requirePower": false,
+  "requirePower": true,
   "naturallySpawning": false,
   "hungerConsumption": false,
   "waterConsumption": false,

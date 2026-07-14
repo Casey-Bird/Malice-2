@@ -1,7 +1,7 @@
 [general]
 	# Default: 5
 	# Range: 1 ~ 100
-	max_team_members = 5
+	max_team_members = 10
 	# Default: 20
 	# Range: 1 ~ 200
 	max_colony_members = 20
@@ -10,10 +10,10 @@
 	max_country_members = 50
 	# Default: 16
 	# Range: 1 ~ 10000
-	max_claims_team = 16
+	max_claims_team = 30
 	# Default: 64
 	# Range: 1 ~ 10000
-	max_claims_colony = 64
+	max_claims_colony = 150
 	# Default: 256
 	# Range: 1 ~ 10000
 	max_claims_country = 256
@@ -22,13 +22,13 @@
 [tier_up]
 	# Default: 3
 	# Range: 0 ~ 30
-	days_required = 3
+	days_required = 1
 	# Default: 3
 	# Range: 1 ~ 100
 	members_for_colony = 3
 	# Default: 10
 	# Range: 1 ~ 100
-	members_for_country = 10
+	members_for_country = 6
 
 [auto_borders]
 	enabled = true

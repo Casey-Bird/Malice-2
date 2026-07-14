@@ -15,8 +15,6 @@ import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 public class Statistics {
 
 
-
-
     public static void init(IEventBus eventBus) {
         StatisticAttachments.ATTACHMENT_TYPES.register(eventBus);
     }
