@@ -43,6 +43,7 @@ const armorItems = [
 
 
     { id: "minecraft:netherite_helmet", armor: 3.5, slot: "head" },
+    { id: "pastel:bedrock_helmet", armor: 3.9, slot: "head" },
 
 
     
@@ -64,7 +65,6 @@ const armorItems = [
     { id: 'aether:phoenix_chestplate', armor: 4, slot: "chest" },
     { id: 'aether:obsidian_chestplate', armor: 4, slot: "chest" },
     { id: 'block_factorys_bosses:knight_chestplate', armor: 3.7, slot: "chest" },
-    { id: 'immersiveengineering:armor_steel_chestplate', armor: 4, slot: "chest" },
     { id: "minecraft:diamond_chestplate", armor: 4, slot: "chest" },
     { id: 'deep_aether:stratus_chestplate', armor: 4, slot: "chest" },
     { id: 'aether:valkyrie_chestplate', armor: 4.1, slot: "chest" },
@@ -76,6 +76,7 @@ const armorItems = [
     { id: 'block_factorys_bosses:dragon_bones_chestplate', armor: 6, slot: "chest" },
     { id: 'irons_spellbooks:infernal_sorcerer_chestplate', armor: 6, slot: "chest" },
     { id: 'irons_spellbooks:paladin_chestplate', armor: 6.5, slot: "chest" },
+    { id: 'pastel:bedrock_chestplate', armor: 7.0, slot: "chest" },
 
 
     // Leggings
@@ -119,10 +120,10 @@ const armorItems = [
     { id: 'twilightforest:fiery_leggings', armor: 5.3, slot: "legs" },
     { id: 'block_factorys_bosses:knight_leggings', armor: 5.3, slot: "legs" },
     { id: 'aether:obsidian_leggings', armor: 5.4, slot: "legs" },
-    { id: 'immersiveengineering:armor_steel_leggings', armor: 5.4, slot: "legs" },
     { id: 'deeperdarker:warden_leggings', armor: 5.5, slot: "legs" },
     { id: 'aether:phoenix_leggings', armor: 5.5, slot: "legs" },
     { id: 'block_factorys_bosses:dragon_bones_leggings', armor: 5.6, slot: "legs" },
+    { id: 'pastel:bedrock_leggings', armor: 6.1, slot: "legs" },
 
 
     // Boots
@@ -152,8 +153,6 @@ const armorItems = [
     { id: 'deeperdarker:warden_boots', armor: 3.8, slot: "feet" },
     { id: 'block_factorys_bosses:knight_boots', armor: 2.6, slot: "feet" },
     { id: 'block_factorys_bosses:dragon_bones_boots', armor: 3.5, slot: "feet" },
-    { id: 'immersiveengineering:armor_steel_boots', armor: 2, slot: "feet" },
-    { id: 'immersiveengineering:armor_faraday_boots', armor: 2, slot: "feet" },
     { id: 'irons_spellbooks:pumpkin_boots', armor: 1.4, slot: "feet" },
     { id: 'irons_spellbooks:pyromancer_boots', armor: 1.8, slot: "feet" },
     { id: 'twilightforest:travellers_boots', armor: 1.3, slot: "feet" },
@@ -173,8 +172,8 @@ const armorItems = [
     { id: "minecraft:iron_boots", armor: 2, slot: "feet" },
     { id: "minecraft:golden_boots", armor: 2.5, slot: "feet" },
     { id: "minecraft:diamond_boots", armor: 3, slot: "feet" },
-    { id: "minecraft:netherite_boots", armor: 4, slot: "feet" }
-
+    { id: "minecraft:netherite_boots", armor: 4, slot: "feet" },
+    { id: "pastel:bedrock_boots", armor: 4.5, slot: "feet" }
 ];
 
 

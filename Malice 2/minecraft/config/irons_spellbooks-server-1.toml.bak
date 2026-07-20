@@ -1,3 +1,12 @@
+###############################################################################################
+###                                                                                          ##
+###                                      ATTENTION:                                          ##
+###           If you are looking for spell configs, they are now datapack driven!            ##
+###                     Use '/ironsSpellbooks config' in-game for hints!                     ##
+###                                                                                          ##
+###                                                                                          ##
+###############################################################################################
+#
 #Other Configuration
 [Blocks]
 	#Whether Portal Frames can only be dyed by the block's owner. Default: true
@@ -12,7 +21,7 @@
 	#Whether or not imbued weapons require mana to be casted. Default: true
 	swordsConsumeMana = true
 	#The multiplier on the cooldown of imbued weapons. Default: 0.5 (50% of default cooldown)
-	swordsCooldownMultiplier = 0.5
+	swordsCooldownMultiplier = 0.6
 	#Whether or not players can harm their own magic summons. Default: false
 	canAttackOwnSummons = false
 	#The maximum amount of times an applicable piece of equipment can be upgraded in the arcane anvil. Default: 3
@@ -38,7 +47,7 @@
 	#Whether hoglins have the ability to pass overworld zombification immunity to their offspring. Default: true
 	hoglinOffspringProtection = true
 	#Global multiplier to all players' mana regeneration. Default: 1.0
-	manaRegenMultiplier = 0.7
+	manaRegenMultiplier = 0.6
 	#Whether merging scrolls with ink to upgrade them in the Arcane Anvil is enabled.
 	scrollMerging = true
 	#Whether mana is required in creative mode. Default: false
@@ -71,6 +80,14 @@
 
 	#Configure Boss Stats
 	["Boss Config".Tyros]
+		#Additional Health
+		additionalHealth = 0.0
+		#Additional Melee Attack Damage
+		additionalAttackDamage = 0.0
+		#Additional Spell Power (additive percent)
+		additionalSpellPower = 0.0
+
+	["Boss Config"."Dead King"]
 		#Additional Health
 		additionalHealth = 0.0
 		#Additional Melee Attack Damage

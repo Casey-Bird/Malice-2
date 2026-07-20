@@ -98,13 +98,13 @@
 	// Exuberance increases experience gained when killing mobs. With 25% bonus XP and 5 levels this would mean 2,25x XP on max level
 	"ExuberanceBonusExperiencePercentPerLevel": 0.25,
 	// In vanilla, crits are a flat 50 % damage bonus. Improved Critical increases this damage by additional 50 % per level by default
-	"ImprovedCriticalExtraDamageMultiplierPerLevel": 0.1,
+	"ImprovedCriticalExtraDamageMultiplierPerLevel": 0.10000000149011612,
 	// Flat additional damage dealt with each level of the First Strike enchantment
 	"FirstStrikeDamagePerLevel": 2.0,
 	// The percentile a mobs armor/hand stacks are being dropped when hit with a Disarming enchanted weapon per the enchantments level
 	"DisarmingChancePerLevelMobs": 0.009999999776482582,
 	// If > 0 the Disarming Enchantment is able to remove armor and hand tools from a hit player. Should be a far smaller chance than for mobs
-	"DisarmingChancePerLevelPlayers": 0,
+	"DisarmingChancePerLevelPlayers": 0.0,
 	// The duration a glow ink sac gives night vision when wearing a glow vision helmet in seconds
 	"GlowVisionGogglesDuration": 120,
 	// If the Omni Accelerator should be able to have interactions in PvP that can drain the targets XP, modify their equipment, ... (configured via the requires_omni_accelerator_pvp_enabled item tag)

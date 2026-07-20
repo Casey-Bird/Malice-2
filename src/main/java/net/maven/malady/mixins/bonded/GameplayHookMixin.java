@@ -147,7 +147,10 @@ public class GameplayHookMixin {
         if (!item.isEmpty()) {
             ItemStack gear = Bonded.GEAR.initComponent(item);
             ItemLevelContainer container = (ItemLevelContainer)gear.get((DataComponentType)DataComponents.ITEM_LEVEL_CONTAINER.get());
-            assert container != null;
+
+            if (container == null) {
+                return;
+            }
 
             int currentWeaponBond = container.getBond();
 

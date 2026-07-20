@@ -1,0 +1,20 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "parcool:parcool_guide": {
+      "viewedEntries": [
+        "parcool:about/about_parcool",
+        "parcool:about/about_parkour",
+        "parcool:about/stamina"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "adorablehamsterpets:hamster_tips_guide_book": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

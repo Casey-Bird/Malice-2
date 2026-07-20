@@ -2,7 +2,7 @@
 	#Base backpack storage slots
 	# Default: 12
 	# Range: 3 ~ 27
-	baseBackpackSlots = 12
+	baseBackpackSlots = 16
 	#
 	#Allow removing backpacks even when they contain items
 	allowRemovingBackpackWithItems = false

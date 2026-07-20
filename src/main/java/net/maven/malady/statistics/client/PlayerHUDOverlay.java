@@ -68,6 +68,7 @@ public class PlayerHUDOverlay {
         renderCurrency(event.getGuiGraphics(), screenWidth, screenHeight);
 
         renderPlayerHead(event.getGuiGraphics(), player, 100, 100, 32);
+
     }
 
     // Player statistics

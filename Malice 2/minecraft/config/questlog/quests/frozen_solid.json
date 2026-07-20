@@ -2,38 +2,37 @@
   "title": "Frozen Solid",
   "description": "A monster born of frost is tormenting the snowy plains of the Overworld. You must seek it out and destroy it.",
   "description_completed": "You have overcome the ice and destroyed the Yeti. It left behind a soul crystal.",
-  "icon": "deeperdarker:ice_lily",
-  "toast_on_unlock": true,
-  "toast_on_complete": true,
-  "show_popup_on_unlock": false,
-
+  "icon": {
+    "item": "deeperdarker:ice_lily"
+  },
   "objectives": [
     {
-      "type": "questlog:entity_kill",
-      "entity": "block_factorys_bosses:yeti",
-      "required_amount": 1,
-      "name": "Yeti Slayer"
-    },
-    {
       "type": "questlog:item_obtain",
-      "item": "age_of_dragons:frostlok_head",
+      "item": "kaleidoscope_cookery:frost_lamb_chop",
       "required_amount": 1,
-      "name": "Frostlok Decapitator"
+      "name": "Frost Lamb Chop"
     },
     {
       "type": "questlog:item_obtain",
       "item": "cold_sweat:goat_fur",
       "required_amount": 5,
       "name": "Warm Fur"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Yeti Slayer",
+      "item": "block_factorys_bosses:ice_gauntlet",
+      "required_amount": 1
     }
   ],
-
-  "rewards":[
+  "rewards": [
     {
       "type": "questlog:item",
       "item": "malady:frosted_soul_crystal",
       "count": 1
     }
   ],
-  "chapter": "main"
+  "chapter": "main",
+  "sort_order": 0,
+  "prerequisites": []
 }

@@ -14,10 +14,10 @@
 
 ["Base Boss Damages"]
 	#Not all damages sources depends on this variable !
-	"Sandworm Damage" = 10.0
-	"Yeti Damage" = 18.0
-	"Dragon Damage" = 15.0
-	"Knight Damage" = 25.0
+	"Sandworm Damage" = 20.0
+	"Yeti Damage" = 26.0
+	"Dragon Damage" = 20.0
+	"Knight Damage" = 45.0
 
 ["Gameplay Changes"]
 	"Can players use the Roll ability" = true

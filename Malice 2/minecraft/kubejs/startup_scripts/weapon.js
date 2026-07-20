@@ -27,7 +27,6 @@ const weapons = [
     { id: 'twilightforest:diamond_minotaur_axe', damage: 7.5, speed: 0.4, slot: "mainhand" },
     { id: 'deeperdarker:resonarium_axe', damage: 8, speed: 0.4, slot: "mainhand" },
     { id: 'deeperdarker:warden_axe', damage: 9.5, speed: 0.4, slot: "mainhand" },
-    { id: 'immersiveengineering:axe_steel', damage: 6.6, speed: 0.4, slot: "mainhand" },
     { id: 'malum:soul_stained_steel_axe', damage: 7.2, speed: 0.4, slot: "mainhand" },
     { id: 'malum:spellweaving_axe', damage: 4.5, speed: 0.4, slot: "mainhand" },
 
@@ -35,7 +34,6 @@ const weapons = [
     { id: 'block_factorys_bosses:large_sword', damage: 8, speed: 0.6, slot: "mainhand" },
     { id: 'block_factorys_bosses:warrior_sword', damage: 7, speed: 0.6, slot: "mainhand" },
     { id: 'block_factorys_bosses:knight_sword', damage: 7.5, speed: 0.6, slot: "mainhand" },
-    { id: 'immersiveengineering:sword_steel', damage: 6, speed: 0.6, slot: "mainhand" },
 
 
     //{ id: "minecraft:wooden_sword", damage: 1, speed: 0.6, slot: "mainhand" },

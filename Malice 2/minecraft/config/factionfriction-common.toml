@@ -21,14 +21,15 @@
 
 [tier_up]
 	# Default: 3
-	# Range: 0 ~ 30
-	days_required = 1
-	# Default: 3
 	# Range: 1 ~ 100
 	members_for_colony = 3
 	# Default: 10
 	# Range: 1 ~ 100
 	members_for_country = 6
+	#Faction age required to tier up, measured in internal faction-minutes (an internal server-tick counter, not real-world time or the Minecraft day/night cycle). This means sleeping through the night and server downtime do not affect it - only time spent actually playing on a running server with the faction alive counts.
+	# Default: 60
+	# Range: 0 ~ 100000
+	minutes_required = 60
 
 [auto_borders]
 	enabled = true
@@ -90,3 +91,22 @@
 	notify_justify_war = true
 	notify_raid_start = true
 	notify_surrender = true
+
+[rank_limits]
+	#Leader and Co-Leader are always capped at 1 each. Citizens (Members) are always unlimited. Set any value here to control how many players can simultaneously hold that rank in a single faction.
+	# Default: 1
+	# Range: 1 ~ 1
+	max_co_leaders = 1
+	# Default: 3
+	# Range: 1 ~ 1000
+	max_commanders = 3
+	# Default: 10
+	# Range: 1 ~ 1000
+	max_military = 10
+	# Default: 5
+	# Range: 1 ~ 1000
+	max_landlords = 5
+
+[ui]
+	#Whether the in-game Factions List browser (shows all factions on the server) is available from the main menu.
+	enable_faction_list_ui = true

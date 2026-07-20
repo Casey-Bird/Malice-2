@@ -1,44 +1,3 @@
-/gamemode creative
-/kubejs hand
-/give notmaven malady:infernal_soul_crystal
-/questlog open
-/kubejs hand
-/gamemode survival
-/gamemode creative
-/questlog open
-/gamemode survival
-/gamemode creative
-/kubejs hand
-/locate biome minecraft:deep_ocean
-/tp @s -1458 71 905
-/time set day
-/locate biome minecraft:lukewarm_ocean
-/tp @s -1782 66 -620
-/kubejs hand
-/give notmaven malady:infernal_soul_crystal
-/kubejs hand
-/time set day
-/questlog open
-/gamemode creative
-/locate biome minecraft:forest
-/tp @s -262 63 168
-/gamemode creative
-/setworldspawn ~ ~ ~
-/pregen start gen expansion
-/pregen processors
-/pregen start gen
-/pregen start gen worldborder primary minecraft:overworld NORMAL_GEN
-/pregen start gen radius primary SQUARE ~ ~ 1000 minecraft:overworld
-/pregen start gen radius primary SQUARE ~ ~ 500 minecraft:overworld
-/
-/pregen start gen expansion test SQUARE ~ ~ 500 1000 minecraft:overworld
-/pregen start gen expansion test SQUARE ~ ~ 100 707 minecraft:overworld
-/pregen start gen expansion test SQUARE ~ ~ 100 509 minecraft:overworld
-/pregen start gen radius Primary CIRCLE ~ ~ 900 minecraft:overworld
-/pregen start gen radius Primary CIRCLE ~ ~ 500 minecraft:overworld
-/
-/gamemode creative
-/pregen taskList
 /pregen taskList gen
 /pregen stop Primary false
 /pregen clear Primary
@@ -47,4 +6,45 @@
 /gamemode survival
 /gamemode spectator
 /gamemode survival
+/gamemode creative
+/questlog
+/gamemode survival
+/gamemode creative
+/time set day
+/gamemode survival
+/gamemode creative
+/kubejs hand
+/questlog open
+/kubejs hand
+/questlog open
+/ql
+/ql edit_mode true notmaven
+/ql
+/questlog open questlog:frozen_solid
+/ql open questlog:frozen_solid notmaven
+/ql open questlog:frozen_solid
+/ql
+/questlog open
+/ql edit_mode true notmaven
+/ql open
+/data get entity 36b118b7-6ed0-4293-9c87-e04492e42633
+/data get entity @e[type=block_factorys_bosses:yeti,limit=1,sort=nearest]
+/questlog open
+/kubejs hand
+/questlog open
+/kubejs hand
+/questlog open
+/kubejs inventory
+/time set day
+/gamemode survival
+/time set day
+/gamemode creative
+/kubejs han
+/kubejs hand
+/time set day
+/kubejs hand
+/questlog
+/questlog open
+/kubejs hand
+/questlog open
 /gamemode creative
