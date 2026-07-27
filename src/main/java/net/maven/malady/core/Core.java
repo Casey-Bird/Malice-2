@@ -25,6 +25,8 @@ public class Core {
 
     public static void registerItems(IEventBus modEventBus) {
         CoreItems.ITEMS.register(modEventBus);
+        CoreItems.CREATIVE_TABS.register(modEventBus);
+        CoreItems.BLOCKS.register(modEventBus);
     }
 
     public static void registerEvents(IEventBus modEventBus) {

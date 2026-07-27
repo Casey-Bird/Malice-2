@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "malady:item/kraken_soul_crystal"
+  }
+}

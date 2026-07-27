@@ -176,9 +176,6 @@ dependencies {
     // Cold Sweat
     implementation "curse.maven:cold-sweat-506194:7091583"
 
-    // Overgeared
-    implementation "curse.maven:overgeared-1277786:7622958"
-
     // Parcool
     implementation "curse.maven:parcool-482378:7518793"
 

@@ -14,9 +14,9 @@
     },
     {
       "type": "questlog:item_obtain",
-      "item": "luminous_butterflies:soul_monarch_jar",
+      "item": "luminous_butterflies:black_swallowtail_jar",
       "required_amount": 1,
-      "name": "Soul Monarch Butterfly"
+      "name": "Black Swallowtail Butterfly"
     },
     {
       "type": "questlog:item_obtain",
@@ -28,7 +28,7 @@
   "rewards": [
     {
       "type": "questlog:item",
-      "item": "'malady:infernal_soul_crystal'",
+      "item": "malady:infernal_soul_vial",
       "count": 1
     }
   ],

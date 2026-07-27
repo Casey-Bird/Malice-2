@@ -22,10 +22,9 @@ public class InfernalSoulCrystal extends SoulCrystal {
                 new SoulCrystal.SoulCrystalConfig()
                         .setEffectDuration(600)      // 30 seconds
                         .setEffectAmplifier(0)       // Amplifier not used for fire effects
-                        .setMaxUses(1)               // Single use
                         .setCooldownTicks(0)         // No cooldown
                         .setStackSize(16)            // Stackable up to 16
-                        .setRarity(Rarity.UNCOMMON)  // Slightly rarer for fire theme
+                        .setRarity(Rarity.EPIC)  // Slightly rarer for fire theme
                         .setNameColor(ChatFormatting.RED)  // Fiery red name
         );
     }

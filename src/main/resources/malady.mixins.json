@@ -9,6 +9,8 @@
 
     "statistics.SleepMixin",
 
+    "irons.FireBossEntityMixin",
+
     "minecraft.TitleMixin",
     "minecraft.ExplorationMapFunctionMixin",
 

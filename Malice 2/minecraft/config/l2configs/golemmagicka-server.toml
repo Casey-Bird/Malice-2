@@ -1,0 +1,3 @@
+# Default: 10.0
+# Range: 0.01 ~ 100.0
+manaMendingRate = 10.0

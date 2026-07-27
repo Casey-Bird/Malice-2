@@ -18,6 +18,14 @@
 	# Range: 1 ~ 10000
 	max_claims_country = 256
 	allow_entity_riding_in_claims = true
+	#Item IDs that place/deploy something (like Superb Warfare's vehicle Container, which deploys via a custom item use rather than normal block placement) and should be blocked from use in claims the player doesn't have access to, same as vanilla boats/minecarts already are. Each entry can be a full item ID like "superbwarfare:container" or a bare mod id to match every item from that mod.
+	blocked_placement_item_ids = ["superbwarfare:container"]
+	#Entity IDs (mod-added vehicles, e.g. Superb Warfare tanks/helicopters) that get special treatment in claims. Each entry can be a full registry ID like "superbwarfare:tank" to match one entity type, or just a mod id like "superbwarfare" to match every entity that mod adds. Used by both allow_entity_riding_in_claims (lets anyone interact with them) and protect_vehicles_from_damage_in_claims below.
+	protected_vehicle_entity_ids = ["superbwarfare"]
+	#Whether entities matching protected_vehicle_entity_ids above take no damage from anyone outside the faction that owns the claim they're standing in. Damage from the owning faction (or its own environment - fall/lava/etc.) is unaffected. Only matters for entities that fire LivingAttackEvent - if a mod's vehicle isn't a LivingEntity this won't apply to it.
+	protect_vehicles_from_damage_in_claims = true
+	#Whether fire is extinguished the instant it spreads into claimed territory from outside the owning faction (unclaimed land or an enemy claim). Fire lit by the owning faction is left alone.
+	disable_fire_spread_in_claims = true
 
 [tier_up]
 	# Default: 3
@@ -52,9 +60,6 @@
 	unloaded_flat_fee = 1
 
 [war_and_raids]
-	# Default: 2
-	# Range: 0 ~ 14
-	war_justify_days = 2
 	# Default: 30
 	# Range: 5 ~ 1440
 	raid_duration_minutes = 30
@@ -86,6 +91,17 @@
 	# Default: 24
 	# Range: 0 ~ 720
 	alliance_break_cooldown_hours = 24
+	# Default: 30
+	# Range: 0 ~ 100000
+	war_justify_minutes = 30
+	#Whether blocks destroyed by explosions (TNT, creepers, etc.) in an active attack chunk count toward the blocks-required siege goal, same as manually mined blocks.
+	explosions_count_toward_attack_progress = true
+	#Max blocks a single player can break per game tick inside the chunk currently being attacked. Vein-mining/auto-mining mods break their whole connected set in the same tick, so leaving this at 1 blocks vein-mining there without touching normal manual mining. Only applies to the active attack chunk - vein mining anywhere else is untouched.
+	# Default: 1
+	# Range: 1 ~ 64
+	attack_chunk_max_breaks_per_tick = 1
+	#If true, a player who trips the above limit gets kicked instead of just having the extra breaks denied. Off by default - a denial + chat message is usually enough, and kicking carries a small false-positive risk for laggy players.
+	kick_on_attack_chunk_vein_mine = false
 
 [notifications]
 	notify_justify_war = true
@@ -110,3 +126,13 @@
 [ui]
 	#Whether the in-game Factions List browser (shows all factions on the server) is available from the main menu.
 	enable_faction_list_ui = true
+
+[xaero_map_integration]
+	#Whether faction claims are shown as colored chunks on Xaero's Minimap and World Map (if the player has those mods installed). Purely visual - does not use or require Open Parties and Claims.
+	show_claims_on_xaero_map = true
+	# Default: 40
+	# Range: 0 ~ 100
+	claim_fill_opacity_percent = 40
+	# Default: 80
+	# Range: 0 ~ 100
+	claim_border_opacity_percent = 80

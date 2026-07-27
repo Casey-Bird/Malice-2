@@ -1,21 +1,3 @@
-/pregen taskList gen
-/pregen stop Primary false
-/pregen clear Primary
-/pregen start gen radius Overworld CIRCLE ~ ~ 500 minecraft:overworld
-/setworldspawn ~ ~ ~
-/gamemode survival
-/gamemode spectator
-/gamemode survival
-/gamemode creative
-/questlog
-/gamemode survival
-/gamemode creative
-/time set day
-/gamemode survival
-/gamemode creative
-/kubejs hand
-/questlog open
-/kubejs hand
 /questlog open
 /ql
 /ql edit_mode true notmaven
@@ -48,3 +30,21 @@
 /kubejs hand
 /questlog open
 /gamemode creative
+/kubejs hand
+/questlog open
+/kubejs hand
+/ship
+/ship gui notmaven
+/summon irons_spellbooks:fire_boss
+/gamemode c
+/gamemode creative
+/kill @e
+/gamemode creative
+/summon irons_spellbooks:fire_boss
+/kill @e
+/give notmaven malady:frosted_soul_vial
+/give notmaven malady:infernal_soul_vial
+/give notmaven malady:
+/give notmaven malady:brimstone_soul_vial
+/give notmaven malady:kraken_soul_vial
+/kubejs hand

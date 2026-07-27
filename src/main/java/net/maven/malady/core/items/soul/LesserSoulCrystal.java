@@ -17,7 +17,6 @@ public class LesserSoulCrystal extends SoulCrystal {
                 new SoulCrystalConfig()
                         .setEffectDuration(400)      // 20 seconds
                         .setEffectAmplifier(0)       // Strength I
-                        .setMaxUses(1)               // 3 uses
                         .setCooldownTicks(300)       // 15 seconds cooldown
                         .setStackSize(16)            // Can stack to 16
                         .setRarity(Rarity.COMMON)    // Common rarity

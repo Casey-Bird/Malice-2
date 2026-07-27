@@ -28,7 +28,7 @@
   "rewards": [
     {
       "type": "questlog:item",
-      "item": "malady:frosted_soul_crystal",
+      "item": "malady:frosted_soul_vial",
       "count": 1
     }
   ],

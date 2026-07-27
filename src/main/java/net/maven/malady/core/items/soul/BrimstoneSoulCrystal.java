@@ -20,10 +20,9 @@ public class BrimstoneSoulCrystal extends SoulCrystal {
                 new SoulCrystal.SoulCrystalConfig()
                         .setEffectDuration(600)      // 30 seconds (20 ticks per second)
                         .setEffectAmplifier(2)       // Digging Speed III (0 = Speed I, 1 = Speed II, 2 = Speed III)
-                        .setMaxUses(1)               // Single use
                         .setCooldownTicks(0)          // No cooldown (or adjust as needed)
                         .setStackSize(16)             // Can stack to 16
-                        .setRarity(Rarity.COMMON)     // Common rarity
+                        .setRarity(Rarity.RARE)     // Common rarity
                         .setNameColor(ChatFormatting.YELLOW)  // Yellow name
         );
     }

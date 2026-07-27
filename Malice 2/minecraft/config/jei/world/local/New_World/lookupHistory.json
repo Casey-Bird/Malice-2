@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"irons_spellbooks:lightning_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:energized_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"luminousworld:jar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"luminous_butterflies:jar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"pastel:bedrock_helmet","components":{"minecraft:enchantments":{"levels":{"minecraft:projectile_protection":5}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},

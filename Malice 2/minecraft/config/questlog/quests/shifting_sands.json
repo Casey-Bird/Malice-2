@@ -27,7 +27,7 @@
   "rewards": [
     {
       "type": "questlog:item",
-      "item": "malady:brimstone_soul_crystal",
+      "item": "malady:brimstone_soul_vial",
       "count": 1
     }
   ],

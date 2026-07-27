@@ -1,0 +1,38 @@
+{
+  "title": "Master of the Ocean",
+  "description": "The ocean is full of mystery and impossibility. Creatures of unimaginable power lurk beneath the waves.",
+  "description_completed": "Vanquisher of the Kraken, catcher of stars, you are the Master of the Ocean.",
+  "icon": {
+    "item": "block_factorys_bosses:kraken_tooth"
+  },
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "block_factorys_bosses:kraken_tooth",
+      "required_amount": 1,
+      "name": "Souvenir of the Kraken"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "luminous_beasts:rare_viper_egg",
+      "required_amount": 1,
+      "name": "Egg of the Coral Sea Viper"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Beauty of the Siamese Rose",
+      "item": "starcatcher:rose_siamese_fish",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "malady:frosted_soul_vial",
+      "count": 1
+    }
+  ],
+  "chapter": "main",
+  "sort_order": 0,
+  "prerequisites": []
+}

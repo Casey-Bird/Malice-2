@@ -1,10 +1,13 @@
 {
-  "item.malady.lesser_soul_crystal": "Lesser Soul Crystal",
-  "item.malady.undead_soul_crystal": "Undead Soul Crystal",
-  "item.malady.brimstone_soul_crystal": "Brimstone Soul Crystal",
-  "item.malady.infernal_soul_crystal": "Infernal Soul Crystal",
-  "item.malady.frosted_soul_crystal": "Frosted Soul Crystal",
-  "item.malady.malicious_soul_crystal": "Malicious Soul Crystal",
+  "creative_tab.malady.malady_tab": "Malady Items",
+  "item.malady.lesser_soul_vial": "Lesser Soul Vial",
+  "item.malady.undead_soul_vial": "Undead Soul Vial",
+  "item.malady.brimstone_soul_vial": "Brimstone Soul Vial",
+  "item.malady.infernal_soul_vial": "Infernal Soul Vial",
+  "item.malady.frosted_soul_vial": "Frosted Soul Vial",
+  "item.malady.malicious_soul_vial": "Malicious Soul Vial",
+  "item.malady.kraken_soul_vial": "Kraken Soul Vial",
+  "item.malady.malignant_soul_vial": "Malignant Soul Vial",
   "item.malady.plant_fibers": "Plant Fibers",
   "block.malady.nether_gateway": "Nether Gateway"
 }
