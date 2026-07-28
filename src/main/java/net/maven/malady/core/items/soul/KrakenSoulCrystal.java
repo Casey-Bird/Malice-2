@@ -22,7 +22,6 @@ public class KrakenSoulCrystal extends SoulCrystal {
                         .setCooldownTicks(0)
                         .setStackSize(64)
                         .setRarity(Rarity.EPIC)
-                        .setNameColor(ChatFormatting.BLUE)
         );
     }
 

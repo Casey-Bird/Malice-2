@@ -22,8 +22,7 @@ public class FrostedSoulCrystal extends SoulCrystal {
                         .setEffectAmplifier(0)
                         .setCooldownTicks(0)
                         .setStackSize(16)
-                        .setRarity(Rarity.RARE)
-                        .setNameColor(ChatFormatting.AQUA)
+                        .setRarity(Rarity.EPIC)
         );
     }
 

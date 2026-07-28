@@ -21,8 +21,7 @@ public class MalignantSoulCrystal extends SoulCrystal {
                         .setEffectAmplifier(4)
                         .setCooldownTicks(0)
                         .setStackSize(16)
-                        .setRarity(Rarity.UNCOMMON)
-                        .setNameColor(ChatFormatting.DARK_PURPLE)
+                        .setRarity(Rarity.EPIC)
         );
     }
 

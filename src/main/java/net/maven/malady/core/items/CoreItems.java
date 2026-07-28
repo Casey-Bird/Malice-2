@@ -28,7 +28,7 @@ public class CoreItems {
             DeferredRegister.create(Registries.BLOCK, Malady.MODID);
 
     public static final Supplier<Block> NETHER_GATEWAY_BLOCK = BLOCKS.register(
-            "nether_gateway_block",
+            "nether_gateway",
             () -> new NetherGatewayBlock(Block.Properties.of()
                     .strength(4.0f, 6.0f)          // adjust as needed
                     .sound(SoundType.STONE)
@@ -37,7 +37,7 @@ public class CoreItems {
     );
 
     public static final Supplier<Item> NETHER_GATEWAY_BLOCK_ITEM = ITEMS.register(
-            "nether_gateway_block",
+            "nether_gateway",
             () -> new BlockItem(NETHER_GATEWAY_BLOCK.get(), new Item.Properties())
     );
 

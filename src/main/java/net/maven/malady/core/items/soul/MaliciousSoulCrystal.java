@@ -17,12 +17,11 @@ public class MaliciousSoulCrystal extends SoulCrystal {
         super(
                 new Item.Properties(),
                 new SoulCrystal.SoulCrystalConfig()
-                        .setEffectDuration(400)      // 20 seconds
-                        .setEffectAmplifier(0)       // Strength I
-                        .setCooldownTicks(300)       // 15 seconds cooldown
-                        .setStackSize(16)            // Can stack to 16
-                        .setRarity(Rarity.EPIC)    // rarity
-                        .setNameColor(ChatFormatting.BLUE)  // Blue name
+                        .setEffectDuration(400)
+                        .setEffectAmplifier(0)
+                        .setCooldownTicks(300)
+                        .setStackSize(16)
+                        .setRarity(Rarity.EPIC)
         );
     }
 

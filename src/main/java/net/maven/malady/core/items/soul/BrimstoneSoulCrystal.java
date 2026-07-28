@@ -23,7 +23,6 @@ public class BrimstoneSoulCrystal extends SoulCrystal {
                         .setCooldownTicks(0)          // No cooldown (or adjust as needed)
                         .setStackSize(16)             // Can stack to 16
                         .setRarity(Rarity.RARE)     // Common rarity
-                        .setNameColor(ChatFormatting.YELLOW)  // Yellow name
         );
     }
 

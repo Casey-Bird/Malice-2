@@ -17,12 +17,11 @@ public class UndeadSoulCrystal extends SoulCrystal {
         super(
                 new Item.Properties(),
                 new SoulCrystal.SoulCrystalConfig()
-                        .setEffectDuration(400)      // 20 seconds
-                        .setEffectAmplifier(0)       // Strength I
-                        .setCooldownTicks(300)       // 15 seconds cooldown
-                        .setStackSize(16)            // Can stack to 16
-                        .setRarity(Rarity.RARE)    // Common rarity
-                        .setNameColor(ChatFormatting.GRAY)  // Gray name
+                        .setEffectDuration(400)
+                        .setEffectAmplifier(0)
+                        .setCooldownTicks(300)
+                        .setStackSize(16)
+                        .setRarity(Rarity.RARE)
         );
     }
 
